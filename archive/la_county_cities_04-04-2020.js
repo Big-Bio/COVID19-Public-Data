@@ -1,6 +1,4 @@
 var laCitiesData = [
-	{ place: "- Under Investigation, Los Angeles", confirmed: 606, deaths: -1, recovered: -1, active: -1, coord:[NA,NA]},
-	{ place: ", Los Angeles", confirmed: -1, deaths: -1, recovered: -1, active: -1, coord:[NA,NA]},
 	{ place: "Acton, Los Angeles", confirmed: -1, deaths: -1, recovered: -1, active: -1, coord:[34.469994,-118.196742]},
 	{ place: "Adams-Normandie, Los Angeles", confirmed: 11, deaths: -1, recovered: -1, active: -1, coord:[34.034344,-118.299314]},
 	{ place: "Agoura Hills, Los Angeles", confirmed: 17, deaths: -1, recovered: -1, active: -1, coord:[34.153340,-118.761676]},

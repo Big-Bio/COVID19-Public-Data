@@ -36,6 +36,9 @@ convert_report <- function(report, file.names){
     if (is.na(case.num)){
       case.num <- -1
     }
+    if (is.na(report[i, "lat"]) | is.na(report[i,"lon"])){
+      next
+    }
     row.str <- 	sprintf("\t{ place: \"%s\", confirmed: %i, deaths: %i, recovered: %i, active: %i, coord:[%f,%f]}",
                         report[i,"City"], case.num, -1,
                         -1, -1, report[i, "lat"], report[i, "lon"])

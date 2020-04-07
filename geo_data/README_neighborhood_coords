@@ -1,0 +1,16 @@
+Many neighborhoods were unincorporated and had to be found manually through county maps. 
+
+Some neighnborhoods had nearly identical names but different data points.  To fix this, we added a bit of noise to the GPS coords to allow displaying of the data points on the map. 
+Examples
+West Hills, Los Angeles 34.19731 -118.6440
+Westhills, Los Angeles 34.19731 -118.6440
+
+Exposition, Los Angeles 34.01494 -118.2862
+Exposition Park, Los Angeles 34.01494 -118.2862
+
+Charter Oak, Los Angeles 34.09944 -117.8464
+Covina (Charter Oak), Los Angeles 34.09944 -117.8464
+
+Checked Var of the lat/lons and some were inaccurate:
+White Fence Farms, Los Angeles  -88.05726 41.67586
+Sunrise Village, Los Angeles	-96.77206 32.69665

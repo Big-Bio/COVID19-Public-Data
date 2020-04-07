@@ -1,4 +1,4 @@
-"","lon","lat"
+﻿,lon,lat
 "Agoura Hills, Los Angeles",-118.7616764,34.1533395
 "Alhambra, Los Angeles",-118.1270146,34.095287
 "Arcadia, Los Angeles",-118.0353449,34.1397292
@@ -43,7 +43,7 @@
 "La Puente, Los Angeles",-117.9495083,34.0200114
 "La Verne, Los Angeles",-117.7678355,34.1008426
 "Lakewood, Los Angeles",-118.1339563,33.8536269
-"Lancaster, Los Angeles",-118.1541632,34.6867846
+"Lancaster, Los Angeles",-118.154796,34.686612
 "Lawndale, Los Angeles",-118.3525744,33.887237
 "Lomita, Los Angeles",-118.3150722,33.7922392
 "Long Beach, Los Angeles",-118.1937395,33.7700504
@@ -68,7 +68,7 @@
 "Rosemead, Los Angeles",-118.072846,34.0805651
 "San Dimas, Los Angeles",-117.8067257,34.1066756
 "San Fernando, Los Angeles",-118.4389719,34.2819461
-"San Gabriel, Los Angeles",-118.1058333,34.0961111
+"San Gabriel, Los Angeles",-118.1058333,34.0946185
 "San Marino, Los Angeles",-118.1064585,34.121397
 "Santa Clarita, Los Angeles",-118.542586,34.3916641
 "Santa Fe Springs, Los Angeles",-118.0853451,33.9472359
@@ -93,14 +93,14 @@
 "Angelino Heights, Los Angeles",-118.2547965,34.0702889
 "Arleta, Los Angeles",-118.4338345,34.2504595
 "Atwater Village, Los Angeles",-118.2614332,34.1172904
-"Baldwin Hills, Los Angeles",-118.3403506,34.0181993
+"Baldwin Hills, Los Angeles",-118.3763521,34.0139134
 "Bel Air, Los Angeles",-118.459463,34.1002455
 "Beverly Crest, Los Angeles",-118.4162542,34.1012952
 "Beverlywood, Los Angeles",-118.3952319,34.0494132
 "Boyle Heights, Los Angeles",-118.2117257,34.0297895
 "Brentwood, Los Angeles",-118.4732464,34.0521011
 "Brookside, Los Angeles",-118.3384966,34.0621509
-"Cadillac-Corning, Los Angeles",-118.2436849,34.0522342
+"Cadillac-Corning, Los Angeles",-118.3831359,34.0392791
 "Canoga Park, Los Angeles",-118.6058609,34.208254
 "Carthay, Los Angeles",-118.3680295,34.0558382
 "Central, Los Angeles",-118.3228165,34.0686748
@@ -122,8 +122,8 @@
 "Elysian Park, Los Angeles",-118.2365812,34.0838043
 "Elysian Valley, Los Angeles",-118.2426625,34.0966545
 "Encino, Los Angeles",-118.5214282,34.1517492
-"Exposition, Los Angeles",-118.2861984,34.0149382
-"Exposition Park, Los Angeles",-118.2861984,34.0149382
+"Exposition, Los Angeles",-118.2900641,34.014057
+"Exposition Park, Los Angeles",-118.2883871,34.0149426
 "Faircrest Heights, Los Angeles",-118.3710307,34.0476464
 "Figueroa Park Square, Los Angeles",-118.2839816,33.9602354
 "Florence-Firestone, Los Angeles",-118.2436197,33.9671978
@@ -190,7 +190,7 @@
 "St Elmo Village, Los Angeles",-118.343027,34.043142
 "Studio City, Los Angeles",-118.3870991,34.1395597
 "Sun Valley, Los Angeles",-118.3812562,34.2279298
-"Sunland, Los Angeles",-118.3082747,34.2596475
+"Sunland, Los Angeles",-118.3283655,34.2676791
 "Sycamore Square, Los Angeles",-118.342813,34.0907128
 "Sylmar, Los Angeles",-118.4571974,34.3058279
 "Tarzana, Los Angeles",-118.5506158,34.1494848
@@ -199,7 +199,7 @@
 "Toluca Lake, Los Angeles",-118.3549609,34.1501794
 "Toluca Terrace, Los Angeles",-118.3589046,34.1667984
 "Toluca Woods, Los Angeles",-118.3593437,34.1605876
-"Tujunga, Los Angeles",-118.3082747,34.2596475
+"Tujunga, Los Angeles",-118.3169355,34.2624042
 "University Hills, Los Angeles",-118.1682384,34.0666868
 "University Park, Los Angeles",-118.2789735,34.0309703
 "Valley Glen, Los Angeles",-118.4138149,34.186682
@@ -209,14 +209,14 @@
 "Vermont Knolls, Los Angeles",-118.2892821,33.9273339
 "Vermont Square, Los Angeles",-118.3002039,34.0037041
 "Vermont Vista, Los Angeles",-118.2826668,33.9454927
-"Vernon Central, Los Angeles",-118.230073,34.003903
+"Vernon Central, Los Angeles",-118.2590017,34.0040484
 "Victoria Park, Los Angeles",-118.3319176,34.0470219
 "View Heights, Los Angeles",-118.3476559,33.9843537
 "Watts, Los Angeles",-118.2380432,33.9386361
 "Wellington Square, Los Angeles",-118.3342874,34.0391736
 "West Adams, Los Angeles",-118.362691,34.0324983
 "West Hills, Los Angeles",-118.6439809,34.1973122
-"West Los Angeles, Los Angeles",-118.442596,34.0412085
+"West Los Angeles, Los Angeles",-118.4614356,34.0452318
 "West Vernon, Los Angeles",-118.2801763,34.0053293
 "Westchester, Los Angeles",-118.3987842,33.9625905
 "Westlake, Los Angeles",-118.2731269,34.0580432
@@ -238,13 +238,13 @@
 "Canyon Country, Los Angeles",-118.4720633,34.4235425
 "Castaic, Los Angeles",-118.6256552,34.4890363
 "Charter Oak, Los Angeles",-117.8463974,34.0994408
-"Covina (Charter Oak), Los Angeles",-117.8463974,34.0994408
+"Covina (Charter Oak), Los Angeles",-117.864406,34.092273
 "Del Aire, Los Angeles",-118.3695196,33.9161251
 "Del Sur, Los Angeles",-118.4265423,34.2800825
 "Desert View Highlands, Los Angeles",-118.1525735,34.5908225
-"East Covina, Los Angeles",-117.9389526,34.0686208
-"East La Mirada, Los Angeles",-117.9889525,33.9244577
-"East Lancaster, Los Angeles",-118.1541632,34.6867846
+"East Covina, Los Angeles",-117.8748565,34.0994197
+"East La Mirada, Los Angeles",-117.9950193,33.9228731
+"East Lancaster, Los Angeles",-118.0437304,34.6913738
 "East Los Angeles, Los Angeles",-118.1669736,34.0224417
 "East Pasadena, Los Angeles",-118.0742249,34.1382378
 "East Rancho Dominguez, Los Angeles",-118.1933729,33.8962011
@@ -263,14 +263,14 @@
 "Lennox, Los Angeles",-118.3525752,33.9380695
 "Leona Valley, Los Angeles",-118.288133,34.618321
 "Littlerock, Los Angeles",-117.9836793,34.521104
-"Littlerock/Juniper Hills, Los Angeles",-117.9836793,34.521104
-"Littlerock/Pearblossom, Los Angeles",-117.9836793,34.521104
+"Littlerock/Juniper Hills, Los Angeles",-117.9724042,34.4590171
+"Littlerock/Pearblossom, Los Angeles",-117.9065147,34.4968416
 "Llano, Los Angeles",-117.8178409,34.5058282
 "Marina del Rey, Los Angeles",-118.4517449,33.9802893
 "Newhall, Los Angeles",-118.5400404,34.373361
-"North Lancaster, Los Angeles",-118.1541632,34.6867846
+"North Lancaster, Los Angeles",-118.14816,34.6867846
 "North Whittier, Los Angeles",-118.418846,34.0741637
-"Northeast San Gabriel, Los Angeles",-118.1058333,34.0961111
+"Northeast San Gabriel, Los Angeles",-118.0880762,34.1172325
 "Padua Hills, Los Angeles",-117.7016907,34.1508751
 "Palos Verdes Peninsula, Los Angeles",-118.3492165,33.7683844
 "Pearblossom/Llano, Los Angeles",-117.8791022,34.5064035
@@ -280,8 +280,8 @@
 "Rancho Dominguez, Los Angeles",-118.224885,33.8508097
 "Roosevelt, Los Angeles",-118.3416671,34.1009807
 "Rosewood, Los Angeles",-118.430417,34.0056976
-"Rosewood/East Gardena, Los Angeles",-118.3089624,33.8883487
-"Rosewood/West Rancho Dominguez, Los Angeles",-118.2706282,33.8939048
+"Rosewood/East Gardena, Los Angeles",-118.2744828,33.8856505
+"Rosewood/West Rancho Dominguez, Los Angeles",-118.2882182,33.8897862
 "Rowland Heights, Los Angeles",-117.9053395,33.9761238
 "San Clemente Island, Los Angeles",-118.4980744,32.9028812
 "San Francisquito Canyon/Boquet Canyon, Los Angeles",-118.5753644,34.4269403
@@ -290,16 +290,16 @@
 "Sand Canyon, Los Angeles",-118.4176141,34.4392997
 "Santa Catalina Island, Los Angeles",-118.4163103,33.3878856
 "Santa Monica Mountains, Los Angeles",-118.9318,34.1203
-"Saugus, Los Angeles",-118.5404007,34.4135244
-"Saugus/Canyon Country, Los Angeles",-118.542586,34.3916641
-"South Antelope Valley, Los Angeles",-118.2522977,34.7513712
+"Saugus, Los Angeles",-118.544443,34.4138026
+"Saugus/Canyon Country, Los Angeles",-118.49091,34.447668
+"South Antelope Valley, Los Angeles",-118.133893,34.547161
 "South Edwards, Los Angeles",-118.1620815,33.9516821
-"South San Gabriel, Los Angeles",-118.0949198,34.0492126
+"South San Gabriel, Los Angeles",-118.09515,34.04906
 "South Whittier, Los Angeles",-118.0402852,33.9510283
-"Southeast Antelope Valley, Los Angeles",-118.2522977,34.7513712
+"Southeast Antelope Valley, Los Angeles",-117.94188,34.492525
 "Stevenson Ranch, Los Angeles",-118.5907538,34.3931105
 "Sun Village, Los Angeles",-117.9581853,34.5579112
-"Sunrise Village, Los Angeles",-96.772057,32.696651
+"Sunrise Village, Los Angeles",-118.061428,34.036725
 "Twin Lakes/Oat Mountain, Los Angeles",-118.6014769,34.2780578
 "Universal City, Los Angeles",-118.3505779,34.1397694
 "Val Verde, Los Angeles",-118.657589,34.4449952
@@ -307,16 +307,16 @@
 "Valinda, Los Angeles",-117.9430983,34.0452924
 "View Park/Windsor Hills, Los Angeles",-118.344711,33.9942689
 "Walnut Park, Los Angeles",-118.2224284,33.9688867
-"West Antelope Valley, Los Angeles",-118.2522977,34.7513712
+"West Antelope Valley, Los Angeles",-118.2375062,34.6550721
 "West Carson, Los Angeles",-118.2925722,33.8216836
-"West Chatsworth, Los Angeles",-118.61481,34.2506356
+"West Chatsworth, Los Angeles",-118.645788,34.2408539
 "West LA, Los Angeles",-118.442596,34.0412085
 "West Puente Valley, Los Angeles",-117.9684985,34.0561121
 "West Rancho Dominguez, Los Angeles",-118.2706282,33.8939048
 "West Whittier/Los Nietos, Los Angeles",-118.0679147,33.9800552
-"Westfield/Academy Hills, Los Angeles",-118.2436849,34.0522342
+"Westfield/Academy Hills, Los Angeles",-118.3596956,33.7804359
 "Westhills, Los Angeles",-118.6439809,34.1973122
-"White Fence Farms, Los Angeles",-88.0572583,41.6758586
+"White Fence Farms, Los Angeles",-118.1683297,34.6440504
 "Whittier Narrows, Los Angeles",-118.0570027,34.0353391
 "Willowbrook, Los Angeles",-118.2550726,33.9169602
 "Wiseburn, Los Angeles",-118.3840814,33.9179085

@@ -4,7 +4,7 @@ library(plyr)
 #' Runs JS script with node to pull data from
 #' http://publichealth.lacounty.gov/media/Coronavirus/locations.htm
 scrape_la_covid_data <- function(js.script.path){
-  shell.cmd <- sprintf("node %s | sed -n '/^CITY.COMMUNITY/,/^-  Under/p;/^-  Under/q' | sed '$d'", js.script.path)
+  shell.cmd <- sprintf("node %s | sed -n '/^CITY.COMMUNITY/,/^- Under/p;/^- Under/q' | sed '$d'", js.script.path)
   first <- TRUE
   la.covid <- NULL
   for (row in system(shell.cmd, intern=TRUE)){
@@ -34,7 +34,7 @@ convert_report <- function(report, file.names){
   for (i in 1:nrow(report)){ # coord = lat lon # changed city to place, cases to confirmed, added deaths ,recovered, and active
     case.num <- report[i, "Cases"]
     if (is.na(case.num)){
-      case.num <- -1
+      case.num <- 0
     }
     if (is.na(report[i, "lat"]) | is.na(report[i,"lon"])){
       next

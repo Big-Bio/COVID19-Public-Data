@@ -1,6 +1,6 @@
 # COVID-19 Public Data Curation
 
-This repository stores public time series data for any COVID-19 related features, such as case counts, death counts, hospital resource usage, etc. 
+This repository stores public time series data for any COVID-19 related features, such as case counts, death counts, hospital resource usage, etc. We are sepcifically looking at data more finescale than at the county level. The datasets are at the city, zipode or neighborhood level, and will be used for surge predictions in hospitals.
 
 These data should have consistent naming conventions for samples (such as location names) and structure. Specifically, data should be stored in the following manner:
 

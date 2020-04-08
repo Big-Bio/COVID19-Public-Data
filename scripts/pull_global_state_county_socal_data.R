@@ -90,13 +90,13 @@ main <- function(){
   us.county.deaths <- us.deaths$county.level
   global.deaths <- read_csse_global_time_series_data(global.death.time.series.csv)
   
-  write.csv(socal.cases, sprintf("%s/cases/southern-california_cases.csv", out.dir))
-  write.csv(us.state.cases, sprintf("%s/cases/us-state_cases.csv", out.dir))
-  write.csv(us.county.cases, sprintf("%s/cases/us-county_cases.csv", out.dir))
-  write.csv(global.cases, sprintf("%s/cases/global_cases.csv", out.dir))
-  write.csv(us.state.deaths, sprintf("%s/deaths/us-state_deaths.csv", out.dir))
-  write.csv(us.county.deaths, sprintf("%s/deaths/us-county_deaths.csv", out.dir))
-  write.csv(global.deaths, sprintf("%s/deaths/global_deaths.csv", out.dir))
+  write.csv(socal.cases, sprintf("%s/cases/US/southern-california_cases.csv", out.dir))
+  write.csv(us.state.cases, sprintf("%s/cases/US/us-state_cases.csv", out.dir))
+  write.csv(us.county.cases, sprintf("%s/cases/US/us-county_cases.csv", out.dir))
+  write.csv(global.cases, sprintf("%s/cases/global/global_cases.csv", out.dir))
+  write.csv(us.state.deaths, sprintf("%s/deaths/US/us-state_deaths.csv", out.dir))
+  write.csv(us.county.deaths, sprintf("%s/deaths/US/us-county_deaths.csv", out.dir))
+  write.csv(global.deaths, sprintf("%s/deaths/global/global_deaths.csv", out.dir))
   
 }
 

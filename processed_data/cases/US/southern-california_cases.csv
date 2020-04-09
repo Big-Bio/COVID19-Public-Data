@@ -1,366 +1,366 @@
-"","3/16/20","3/17/20","3/18/20","3/19/20","3/20/20","3/21/20","3/22/20","3/23/20","3/24/20","3/25/20","3/26/20","3/27/20","3/28/20","3/29/20","3/30/20","3/31/20","4/01/20","4/02/20","4/03/20","4/04/20","4/05/20","4/06/20","4/07/20"
-"Bakersfield East, Kern",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,70,83,94
-"Bakersfield West, Kern",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,101,107,110
-"Desert, Kern",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,6,6,6
-"Mountain, Kern",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,7,8,8
-"Valley, Kern",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,39,42,43
-"Los Angeles, Los Angeles",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1020,1171,1386,1580,1787,2047,2361,2659,2851,3130
-"Aliso Viejo, Orange",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2,NA,3,3,4,6,8,8,8,9,9,10
-"Anaheim, Orange",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,28,37,41,42,46,56,60,63,74,79,92,95
-"Brea, Orange",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,3,3,3,3,4,4,4,4,4,4,4
-"Buena Park, Orange",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,7,12,14,15,16,19,21,22,22,25,28,30
-"Costa Mesa, Orange",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,8,9,11,11,10,12,14,14,18,18,20,21
-"Cypress, Orange",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,6,7,9,10,11,15,18,18,18,18,21,22
-"Dana Point, Orange",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,7,6,6,7,9,11,11,11,11,11,11,11
-"Fountain Valley, Orange",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,5,6,7,8,8,8,8,8,9,12,12,14
-"Fullerton, Orange",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,7,8,9,12,12,13,14,15,17,19,20,21
-"Garden Grove, Orange",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,4,7,8,8,10,12,15,18,19,21,22,24
-"Huntington Beach, Orange",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,26,32,33,33,32,39,44,48,55,58,62,67
-"Irvine, Orange",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,33,36,38,43,50,57,65,69,70,75,77,82
-"La Habra, Orange",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,2,2,2,2,5,6,8,8,13,15,17
-"La Palma, Orange",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,6,6,6,6,6,6,6,7,10
-"Ladera Ranch, Orange",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,6,6,8,8,8,8
-"Laguna Beach, Orange",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,22,22,25,28,29,31,32,34,34
-"Laguna Hills, Orange",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,2,3,3,5,7,7,9,9
-"Laguna Niguel, Orange",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,11,13,13,15,16,16,16,20,20,21,21,21
-"Lake Forest, Orange",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,5,7,7,9,10,11,14,15,15,16,16,14
-"Mission Viejo, Orange",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,6,7,7,9,9,16,16,18,22,22,22,23
-"Newport Beach, Orange",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,32,36,37,41,46,54,48,67,70,73,73,75
-"Orange, Orange",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,11,11,13,13,15,17,19,21,24,27,29,32
-"Other/Unknown, Orange",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,55,60,69,64,62,68
-"Placentia, Orange",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,5,6,6,6,6,11,12,13,16,19,20,21
-"Rancho Santa Margarita, Orange",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,3,4,4,5,5,8,6,6,6,6,6,7
-"San Clemente, Orange",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,10,11,12,16,20,30,31,35,37,37,38,40
-"San Juan Capistrano, Orange",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,9,9,9,9,10,13,15,16,16,16,16,17
-"Santa Ana, Orange",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,13,20,22,22,24,36,40,43,51,58,62,65
-"Seal Beach, Orange",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,1,1,1,2,2,2,3,3,3,3
-"Stanton, Orange",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,1,1,1,1,1,1,1,2,2
-"Trabuco Canyon, Orange",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,5,5,5,5
-"Tustin, Orange",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,4,7,7,7,7,10,12,13,13,15,16,17
-"Westminster, Orange",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,5,5,6,7,7,7,7,7,9,10,13,14
-"Yorba Linda, Orange",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,10,12,12,NA,15,19,19,22,24,26,27,28
-"Anza, Riverside",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,3,3,3,4,4
-"Banning, Riverside",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,2,2,4,12,16,18,19,19,21,34
-"Beaumont, Riverside",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,5,5,4,8,9,10,11,12,14,16,17,18
-"Bermuda Dunes, Riverside",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2,2,2,2,2,2,3,3
-"Blythe, Riverside",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,1,2,1,1,2,2,2,2,2,2
-"Calimesa, Riverside",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,0,NA,1,1,2,2,3,3,3
-"Canyon Lake, Riverside",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,1,1,3,3,3,3,3,3,3,3
-"Cathedral City, Riverside",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,3,4,5,7,10,12,15,17,17,21,29,31
-"Cherry Valley, Riverside",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,1,1,1,1,1,1
-"Coachella, Riverside",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,1,1,1,1,7,7,21,36,37
-"Corona, Riverside",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,12,13,16,17,21,23,27,34,34,42,47,48
-"Desert Edge, Riverside",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,1,2,2,2,2,2
-"Desert Hot Springs, Riverside",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,3,4,4,6,7,6,6,6,6,7,8,8
-"Desert Palms, Riverside",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,3,3,3,3,3,3,3,3
-"East Hemet, Riverside",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,1,2,2,2
-"Eastvale, Riverside",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,11,11,9,16,14,16,16,22,22,25,29,29
-"El Cerrito, Riverside",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,1,1,1,1,3,3
-"El Sobrante, Riverside",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,6,5,5,8,8,8,9,10
-"French Valley, Riverside",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,7,12,12,12,12,12,12,12
-"Garnet, Riverside",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2,3
-"Good Hope, Riverside",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,1,2,2,2,2,4
-"Green Acres, Riverside",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,1,1,1,1,1,1
-"Hemet, Riverside",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,1,4,5,7,9,14,14,16,18,19
-"Home Gardens, Riverside",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,1,1,1,1,1,1
-"Idyllwild-Pine Cove, Riverside",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,1,2,2
-"Indian Wells, Riverside",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,2,3,5,6,6,8,8,8,8,9
-"Indio, Riverside",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,8,8,11,16,20,23,24,33,33,44,51,55
-"Indio Hills, Riverside",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,1,1
-"Jurupa Valley, Riverside",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2,2,3,3,5,5,5,7,8,11,14,16
-"La Quinta, Riverside",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,4,5,8,11,14,17,18,17,18,22,24,25
-"Lake Elsinore, Riverside",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,4,4,5,6,10,10,12,17,18,20,23,25
-"Lakeland Village, Riverside",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,NA,1,1,1,1,1
-"Mead Valley, Riverside",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,3,3,4,4,5,6
-"Meadowbrook, Riverside",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,0,NA,1,1,1,1,1
-"Mecca, Riverside",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,2,2,3,3,3
-"Menifee, Riverside",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,8,8,6,9,13,15,17,23,25,32,35,37
-"Mesa Verde, Riverside",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2,2,2,2,2,2,2,2
-"Moreno Valley, Riverside",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,20,20,23,23,29,38,46,56,59,74,90,94
-"Murrieta, Riverside",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,11,12,8,14,14,16,22,33,33,39,44,46
-"Norco, Riverside",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,1,1,1,2,2,3,3,4,6,6
-"Nuevo, Riverside",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,2,2,2,2,2,2
-"Oasis, Riverside",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,2,2,2
-"Palm Desert, Riverside",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,12,13,13,23,21,24,30,36,36,42,45,46
-"Palm Springs, Riverside",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,15,18,22,26,31,30,35,43,46,48,57,57
-"Perris, Riverside",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,4,4,4,8,9,13,15,18,22,31,41,42
-"Rancho Mirage, Riverside",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,9,9,11,13,13,13,13,15,15,18,18,18
-"Riverside, Riverside",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,21,21,19,29,30,33,38,52,55,63,83,96
-"San Jacinto, Riverside",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,1,1,1,2,2,6,7,8,9,10
-"Sky Valley, Riverside",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
-"Temecula, Riverside",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,16,16,14,24,21,24,26,36,38,44,46,47
-"Temescal Valley, Riverside",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,1,1,1,1,4
-"Thermal, Riverside",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,1
-"Thousand Palms, Riverside",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,2,2
-"Valle Vista, Riverside",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
-"Warm Springs, Riverside",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,2,2
-"Wildomar, Riverside",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,5,5,5,6,9,10,11,13,14,15,19,20
-"Woodcrest, Riverside",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,2,2,3,3,4,4,5
-"Adelanto, San Bernardino",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,3,3,3,3,3,3
-"Alta Loma, San Bernardino",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,2,2,4,4,4,4,4
-"Apple Valley, San Bernardino",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,2,3,4,4,4,7,7
-"Barstow, San Bernardino",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,3,4,6,6,6,6,6,7,8
-"Big Bear City, San Bernardino",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,1,2,2,2,2,2
-"Big Bear Lake, San Bernardino",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,2,3,3,3,3,3,3
-"Bloomington, San Bernardino",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2,2,2,3,3,3,3,7,7
-"Blue Jay, San Bernardino",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2,2,2,2,2,2,2
-"Chino, San Bernardino",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,3,6,9,11,13,13,13,16,17
-"Chino Hills, San Bernardino",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,5,8,9,10,14,15,15,22,23
-"Colton, San Bernardino",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,2,4,8,8,7,8,9
-"Crestline, San Bernardino",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,1,1,1,1,1
-"Fontana, San Bernardino",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,8,15,23,25,35,40,40,66,67
-"Fort Irwin, San Bernardino",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1
-"Grand Terrace, San Bernardino",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,1,1,1,1,2,2
-"Hesperia, San Bernardino",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,4,4,4,6,9,9,18,19
-"Highland, San Bernardino",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,7,8,9,11,14,15,15,21,22
-"Joshua Tree, San Bernardino",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,2,2,2,1
-"Loma Linda, San Bernardino",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,3,5,6,7,9,9,9,12,13
-"Mentone, San Bernardino",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,2,2,2,3,3,4,4
-"Montclair, San Bernardino",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,3,4,4,4,4,5,5
-"Oak Hills, San Bernardino",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,1,1,1,1,1,2,2
-"Ontario, San Bernardino",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,5,9,10,14,18,19,18,28,29
-"Phelan, San Bernardino",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,1,1,1,1,1,1,1
-"Rancho Cucamonga, San Bernardino",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,14,14,23,25,26,28,28,36,37
-"Redlands, San Bernardino",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,7,10,17,19,26,27,27,41,40
-"Rialto, San Bernardino",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,7,7,11,12,13,13,13,26,26
-"Rimforest, San Bernardino",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,1,1,1,1,1
-"Running Springs, San Bernardino",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2,2,2,2,2,2,2,2,2
-"San Bernardino, San Bernardino",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,6,7,13,15,20,22,23,40,41
-"Undetermined, San Bernardino",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,16,21,21
-"Upland, San Bernardino",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,6,7,11,14,14,14,14,18,18
-"Victorville, San Bernardino",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,6,7,7,9,9,10,10,20,20
-"Wrightwood, San Bernardino",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,1,1,1,1,1
-"Yucaipa, San Bernardino",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,18,53,60,68,69,70,70,77,85
-"Yucca Valley, San Bernardino",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,2,2,2,2,2,2,3,3
-"Alpine, San Diego",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,1,1,1
-"Bonita, San Diego",NA,NA,NA,NA,NA,NA,NA,NA,1,1,1,NA,2,2,4,3,6,6,7,8,8,8,11
-"Borrego Springs, San Diego",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,1,1,1
-"Carlsbad, San Diego",NA,NA,NA,NA,NA,NA,NA,12,13,16,15,18,19,20,24,27,30,32,37,39,41,42,42
-"Chula Vista, San Diego",NA,NA,NA,NA,NA,NA,NA,4,7,13,17,21,24,24,32,38,52,65,75,86,95,104,120
-"Coronado, San Diego",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,1,1,1,2,2,4,4,4,4,4
-"Del Mar, San Diego",NA,NA,NA,NA,NA,NA,NA,4,5,5,5,6,6,6,6,5,5,5,7,7,8,8,8
-"Descanso, San Diego",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,1,1,1
-"El Cajon, San Diego",NA,NA,NA,NA,NA,NA,NA,2,8,13,19,20,26,29,34,36,38,43,60,67,72,74,85
-"Encinitas, San Diego",NA,NA,NA,NA,NA,NA,NA,5,7,8,12,14,16,18,19,20,24,25,27,27,29,30,31
-"Escondido, San Diego",NA,NA,NA,NA,NA,NA,NA,3,6,6,7,7,9,9,10,11,14,23,26,27,28,28,32
-"Fallbrook, San Diego",NA,NA,NA,NA,NA,NA,NA,2,2,2,2,3,4,4,4,4,4,6,5,6,6,6,6
-"Imperial Beach, San Diego",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,2,3,6,7,7
-"Jamul, San Diego",NA,NA,NA,NA,NA,NA,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,1,1,1,2,3
-"La Mesa, San Diego",NA,NA,NA,NA,NA,NA,NA,1,1,1,1,3,3,4,6,8,11,12,15,18,18,23,25
-"Lakeside, San Diego",NA,NA,NA,NA,NA,NA,NA,1,2,2,2,2,2,3,4,5,8,8,8,9,10,12,14
-"Lemon Grove, San Diego",NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,1,2,3,4,5,5,8,10,13,12,13,14
-"National City, San Diego",NA,NA,NA,NA,NA,NA,NA,2,3,5,6,6,8,8,8,10,11,12,18,18,19,25,25
-"Oceanside, San Diego",NA,NA,NA,NA,NA,NA,NA,4,7,7,8,8,11,11,14,17,20,22,27,29,30,31,31
-"Other/Unknown, San Diego",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,62,62,69,61,73,125,133,103
-"Pauma Valley, San Diego",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,2,2,2,2,2,2
-"Poway, San Diego",NA,NA,NA,NA,NA,NA,NA,2,2,3,4,5,7,7,7,7,9,10,13,13,13,14,15
-"Ramona, San Diego",NA,NA,NA,NA,NA,NA,NA,2,2,2,2,3,4,4,4,4,4,4,6,7,7,8,9
-"Ranchita, San Diego",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2,2,2,2,2
-"Rancho Santa Fe, San Diego",NA,NA,NA,NA,NA,NA,NA,3,5,5,5,6,7,7,10,11,12,14,13,14,14,14,14
-"San Diego, San Diego",NA,NA,NA,NA,NA,NA,NA,118,141,169,207,251,284,314,350,422,486,540,614,649,686,713,750
-"San Marcos, San Diego",NA,NA,NA,NA,NA,NA,NA,3,3,3,3,3,3,4,5,5,10,12,13,17,17,19,20
-"Santee, San Diego",NA,NA,NA,NA,NA,NA,NA,1,1,1,2,2,2,2,3,5,5,10,12,15,16,16,14
-"Solana Beach, San Diego",NA,NA,NA,NA,NA,NA,NA,2,1,1,1,1,1,2,2,3,3,5,5,5,5,5,5
-"Spring Valley, San Diego",NA,NA,NA,NA,NA,NA,NA,NA,3,4,4,5,9,9,12,17,18,21,23,27,28,34,34
-"Valley Center, San Diego",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,3,3,3,3
-"Vista, San Diego",NA,NA,NA,NA,NA,NA,NA,2,2,3,5,6,10,10,11,8,9,9,15,17,18,21,22
-"Arroyo Grande, San Luis Obispo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,13,13,13,14
-"Atascadero, San Luis Obispo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,18,19,19,19
-"Morro Bay, San Luis Obispo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,6,6,6,6
-"Nipomo, San Luis Obispo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,5,5,5,6
-"Other, San Luis Obispo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,11,11,11,13
-"Paso Robles, San Luis Obispo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,26,27,27,27
-"San Luis Obispo, San Luis Obispo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,8,8,8,8
-"Templeton, San Luis Obispo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,6,6,6,6
-"Goleta, Santa Barbara",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2,2,2,2,2,3,4,4,4,5,5,5
-"Goleta Valley & Gaviota, Santa Barbara",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,1,1,3,9,9,9,9,9,9,9
-"Isla Vista, Santa Barbara",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,1,1,1,1,1
-"Lompoc, Santa Barbara",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,1,1,2,7,12,14,17,29,29,37,55
-"North County, Santa Barbara",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2,2,3,13,16,15,15,15,15,15
-"Orcutt, Santa Barbara",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,5,5,5,5,5,6,13,18,18,19,20,22,22
-"Santa Barbara, Santa Barbara",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,11,20,25,25,25,23,26,28,30,31,31,32,33
-"Santa Maria, Santa Barbara",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,8,10,19,20,20,21,28,39,44,45,48,53,59
-"Santa Ynez Valley, Santa Barbara",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2,1,2,2,2,2,3,4,5,5,5,5,5
-"South County, Santa Barbara",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,5,6,8,10,9,6,9,6,9,10,11,13,14
-"Camarillo, Ventura",NA,NA,NA,NA,NA,NA,NA,5,5,8,9,14,15,19,21,21,24,27,28,29,30,31,32
-"Lake Sherwood, Ventura",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,2,2,2,2,2,2,2,2,2,2,2
-"Moorpark, Ventura",NA,NA,NA,NA,NA,NA,NA,1,3,3,3,7,7,7,8,8,12,12,12,14,14,15,15
-"Newbury Park, Ventura",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,3,4,4,4,5,5,5
-"Oak Park, Ventura",NA,NA,NA,NA,NA,NA,NA,1,1,2,3,3,3,6,6,6,7,7,7,7,9,9,9
-"Oak View, Ventura",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,1,1,1,1,1,1,1,1,1,1
-"Ojai, Ventura",NA,NA,NA,NA,NA,NA,NA,1,2,2,2,2,2,2,2,2,2,3,4,4,4,4,4
-"Oxnard, Ventura",NA,NA,NA,NA,NA,NA,NA,3,4,5,8,11,12,15,18,18,24,29,30,39,40,42,46
-"Piru, Ventura",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,1,1,1,1,1
-"Port Hueneme, Ventura",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,2,2,2,2,2,2,2,2,2,2,2
-"Santa Paula, Ventura",NA,NA,NA,NA,NA,NA,NA,2,2,2,2,2,2,2,2,2,2,3,3,3,3,3,3
-"Santa Rosa Valley, Ventura",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,1,1,1,1,1
-"Simi Valley, Ventura",NA,NA,NA,NA,NA,NA,NA,11,11,12,15,15,20,20,21,21,27,30,37,39,46,47,55
-"Somis, Ventura",NA,NA,NA,NA,NA,NA,NA,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
-"Thousand Oaks, Ventura",NA,NA,NA,NA,NA,NA,NA,5,5,7,8,10,15,15,22,22,33,35,30,29,33,33,36
-"Ventura, Ventura",NA,NA,NA,NA,NA,NA,NA,4,4,6,7,10,11,11,14,14,18,19,19,20,21,21,21
-"Westlake, Ventura",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,7,7,8,8,9
-"Corona Del Mar, Orange",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,12,NA,NA,NA,NA,NA
-"Laguna Woods, Orange",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,1,NA,NA,NA,NA,NA,NA
-"Los Alamitos, Orange",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,1,NA,NA,NA,NA,NA,NA
-"Other, Orange",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,27,39,40,15,16,16,NA,NA,NA,NA,NA,NA
-"Villa Park, Orange",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,1,NA,NA,NA,NA,NA,NA
-"Westlake Village, Ventura",NA,NA,NA,NA,NA,NA,NA,1,1,2,2,5,5,6,5,5,NA,NA,NA,NA,NA,NA,NA
-"Bonia, San Diego",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Agoura Hills, Los Angeles",NA,NA,NA,NA,NA,NA,NA,1,3,3,5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Alhambra, Los Angeles",2,1,1,2,3,3,3,4,5,6,8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Altadena, Los Angeles",NA,1,NA,NA,2,3,3,5,5,5,6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Arcadia, Los Angeles",1,1,2,2,2,2,2,3,4,4,6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Arleta, Los Angeles",NA,NA,NA,NA,NA,NA,NA,NA,NA,1,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Athens, Los Angeles",NA,NA,NA,NA,NA,NA,1,1,1,1,3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Azusa, Los Angeles",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Baldwin Hills, Los Angeles",NA,1,1,1,1,2,3,3,3,3,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Bell, Los Angeles",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Bell Gardens, Los Angeles",NA,NA,NA,NA,NA,NA,NA,NA,NA,3,3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Bellflower, Los Angeles",NA,NA,NA,NA,NA,NA,1,3,3,7,8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Beverly Hills, Los Angeles",1,1,4,4,5,7,8,12,12,13,15,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Beverlywood, Los Angeles",NA,NA,NA,2,2,5,6,7,7,8,10,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Boyle Heights, Los Angeles",5,5,5,5,5,5,5,5,5,5,7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Brentwood, Los Angeles",NA,1,2,13,16,18,23,27,31,34,42,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Burbank, Los Angeles",NA,NA,NA,1,1,1,2,2,2,3,6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Calabasas, Los Angeles",NA,NA,NA,1,1,1,2,3,4,4,5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Canoga Park, Los Angeles",NA,NA,NA,NA,NA,NA,1,2,2,2,3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Canyon Country, Los Angeles",NA,NA,NA,NA,NA,NA,NA,NA,1,1,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Carson, Los Angeles",1,1,1,1,3,3,4,6,8,9,21,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Castaic, Los Angeles",NA,NA,NA,1,1,1,1,1,2,2,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Century City, Los Angeles",NA,NA,NA,5,4,4,4,4,6,7,9,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Century Palms/Cove, Los Angeles",NA,NA,1,NA,1,1,1,1,1,3,3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Cerritos, Los Angeles",NA,NA,NA,NA,NA,1,2,2,2,2,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Chatsworth, Los Angeles",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Claremont, Los Angeles",NA,NA,NA,NA,NA,NA,NA,NA,1,1,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Cloverdale/Cochran, Los Angeles",NA,NA,NA,NA,NA,NA,NA,1,2,3,3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Compton, Los Angeles",NA,NA,NA,NA,NA,NA,NA,1,1,2,5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Covina, Los Angeles",NA,NA,NA,1,1,1,1,1,3,3,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Crenshaw District, Los Angeles",NA,NA,NA,NA,NA,NA,NA,NA,NA,2,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Crestview, Los Angeles",NA,NA,NA,1,1,4,5,6,7,7,9,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Culver City, Los Angeles",2,2,2,3,4,4,4,5,7,6,8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Del Rey, Los Angeles",NA,NA,NA,NA,NA,2,2,2,3,5,9,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Diamond Bar, Los Angeles",2,2,2,2,2,2,2,2,2,2,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Downey, Los Angeles",NA,NA,NA,NA,NA,NA,NA,NA,1,5,10,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Downtown, Los Angeles",NA,NA,NA,NA,1,1,1,2,3,6,7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Duarte, Los Angeles",NA,NA,NA,NA,NA,NA,NA,1,1,1,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Eagle Rock, Los Angeles",NA,1,1,1,1,1,1,2,2,2,3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"East Hollywood, Los Angeles",NA,NA,NA,NA,NA,NA,1,1,1,1,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"East Los Angeles, Los Angeles",NA,NA,NA,1,1,1,2,2,3,3,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Echo Park, Los Angeles",NA,NA,NA,1,1,1,1,2,2,4,7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"El Segundo, Los Angeles",NA,NA,NA,NA,1,2,1,1,2,2,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Encino, Los Angeles",3,5,6,6,8,10,10,10,12,13,21,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Exposition Park, Los Angeles",NA,NA,NA,NA,NA,NA,NA,1,1,1,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Florence, Los Angeles",NA,NA,NA,NA,NA,NA,NA,1,1,4,7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Gardena, Los Angeles",1,1,1,1,1,1,1,1,1,1,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Glassell Park, Los Angeles",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Glendale, Los Angeles",2,3,4,4,4,5,6,9,10,12,23,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Glendora, Los Angeles",1,NA,NA,NA,NA,NA,1,1,1,2,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Granada Hills, Los Angeles",3,3,3,4,4,4,4,5,5,7,8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Hacienda Heights, Los Angeles",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Hancock Park, Los Angeles",NA,NA,NA,2,2,4,5,6,7,8,10,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Harbor City, Los Angeles",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Harbor Gateway, Los Angeles",NA,NA,NA,NA,NA,NA,NA,NA,1,2,3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Harvard Heights, Los Angeles",NA,NA,NA,NA,NA,NA,NA,NA,1,1,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Hawthorne, Los Angeles",NA,NA,NA,1,2,2,2,3,6,8,9,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Highland Park, Los Angeles",NA,NA,NA,NA,NA,NA,NA,NA,1,2,3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Hollywood, Los Angeles",NA,NA,5,5,7,12,12,14,19,23,27,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Hollywood Hills, Los Angeles",NA,NA,2,2,2,2,5,7,8,8,17,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Hyde Park, Los Angeles",NA,NA,NA,NA,NA,NA,NA,1,1,1,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Inglewood, Los Angeles",2,1,1,2,2,2,3,3,5,5,12,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Koreatown, Los Angeles",1,1,1,1,1,1,2,3,5,5,7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"La Canada Flintridge, Los Angeles",NA,NA,NA,NA,NA,1,1,2,2,3,6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"La Mirada, Los Angeles",2,3,3,3,3,3,3,3,3,4,5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"La Puente, Los Angeles",NA,NA,NA,NA,NA,NA,NA,NA,1,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"La Verne, Los Angeles",NA,NA,NA,NA,NA,1,2,2,2,2,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Lake Balboa, Los Angeles",NA,NA,NA,NA,1,1,1,2,2,2,3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Lakewood, Los Angeles",NA,NA,NA,NA,1,1,1,1,3,4,7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Lancaster, Los Angeles",1,NA,NA,NA,3,3,4,7,8,13,16,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Lawndale, Los Angeles",NA,NA,NA,1,1,1,1,2,2,1,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Leimert Park, Los Angeles",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Lincoln Heights, Los Angeles",NA,NA,NA,NA,NA,NA,NA,1,1,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Little Bangladesh, Los Angeles",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Lomita, Los Angeles",NA,NA,NA,5,5,7,8,8,9,9,12,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Long Beach, Los Angeles",5,8,8,12,14,15,17,19,28,41,54,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Los Feliz, Los Angeles",NA,NA,NA,NA,NA,NA,1,2,2,3,5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Lynwood, Los Angeles",NA,1,1,1,1,1,2,2,2,3,6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Manhattan Beach, Los Angeles",3,4,4,5,6,7,7,9,11,17,21,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Mar Vista, Los Angeles",NA,1,1,1,3,4,5,6,6,6,8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Maywood, Los Angeles",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Melrose, Los Angeles",2,9,10,11,11,12,17,19,26,33,47,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Miracle Mile, Los Angeles",NA,NA,NA,NA,1,1,4,5,7,8,13,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Monrovia, Los Angeles",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Montebello, Los Angeles",NA,NA,NA,NA,NA,1,NA,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Monterey Park, Los Angeles",NA,1,2,2,2,3,3,3,3,4,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Mt. Washington, Los Angeles",NA,NA,NA,NA,NA,NA,NA,NA,1,2,3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"North Hills, Los Angeles",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"North Hollywood, Los Angeles",NA,1,2,3,5,5,5,9,10,11,15,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Northridge, Los Angeles",1,1,1,1,1,1,1,1,2,2,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Norwalk, Los Angeles",NA,NA,NA,NA,NA,NA,NA,NA,1,2,9,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Pacific Palisades, Los Angeles",NA,NA,NA,5,6,7,7,8,9,9,12,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Pacoima, Los Angeles",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Palmdale, Los Angeles",NA,NA,NA,NA,NA,NA,NA,1,2,2,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Palms, Los Angeles",NA,NA,NA,1,1,1,1,2,6,8,10,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Panorama City, Los Angeles",NA,NA,NA,NA,NA,NA,NA,NA,NA,1,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Paramount, Los Angeles",NA,NA,NA,NA,NA,NA,1,2,2,3,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Park La Brea, Los Angeles",NA,NA,NA,3,4,4,4,6,8,8,8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Pasadena, Los Angeles",2,2,2,2,3,3,3,6,6,7,10,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Pico, Los Angeles",NA,NA,NA,NA,NA,NA,NA,NA,1,2,5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Pico Rivera, Los Angeles",NA,NA,NA,NA,NA,NA,NA,NA,1,1,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Playa Vista, Los Angeles",NA,NA,NA,1,1,2,2,3,4,5,8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Pomona, Los Angeles",NA,NA,NA,NA,NA,NA,NA,NA,NA,1,3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Porter Ranch, Los Angeles",NA,NA,NA,NA,NA,NA,NA,NA,1,1,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Rancho Palos Verdes, Los Angeles",NA,NA,NA,NA,NA,NA,1,1,3,5,6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Redondo Beach, Los Angeles",NA,NA,NA,NA,1,2,4,5,7,9,20,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Reseda, Los Angeles",NA,NA,NA,1,2,3,2,3,4,5,8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"San Dimas, Los Angeles",1,1,1,1,1,1,1,1,1,1,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"San Fernando, Los Angeles",NA,NA,NA,NA,1,1,1,1,2,3,3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"San Gabriel, Los Angeles",NA,NA,NA,NA,NA,NA,NA,NA,1,1,3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"San Pedro, Los Angeles",1,1,1,1,1,1,1,2,2,4,5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Santa Clarita, Los Angeles",NA,2,2,3,4,4,4,7,7,10,16,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Santa Monica, Los Angeles",1,1,3,2,4,5,7,12,16,18,21,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Santa Monica Mountains, Los Angeles",NA,NA,NA,2,2,3,2,2,2,3,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Sherman Oaks, Los Angeles",2,2,4,5,6,7,7,8,10,12,17,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Silver Lake, Los Angeles",1,1,1,NA,NA,3,3,4,5,6,11,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"South El Monte, Los Angeles",NA,NA,NA,1,1,1,1,1,1,3,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"South Gate, Los Angeles",NA,NA,NA,NA,NA,NA,1,1,1,2,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"South Park, Los Angeles",NA,NA,NA,NA,NA,NA,NA,1,1,1,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"South Pasadena, Los Angeles",1,1,1,1,2,2,3,3,3,3,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"South Whittier, Los Angeles",NA,NA,NA,NA,1,1,1,2,2,3,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Stevenson Ranch, Los Angeles",NA,NA,NA,1,1,1,1,2,2,2,3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Studio City, Los Angeles",NA,NA,NA,3,3,4,4,7,7,7,11,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Sun Valley, Los Angeles",NA,NA,NA,NA,NA,1,1,2,2,2,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Sunland, Los Angeles",NA,NA,NA,NA,NA,1,1,1,1,1,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Sylmar, Los Angeles",NA,NA,1,1,1,1,1,1,1,1,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Tarzana, Los Angeles",5,5,5,5,6,7,8,8,9,9,14,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Temple City, Los Angeles",NA,NA,NA,NA,NA,NA,1,1,1,3,6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Torrance, Los Angeles",2,1,2,2,2,2,3,4,5,9,14,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Tujunga, Los Angeles",NA,NA,NA,1,1,1,1,1,1,1,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"University Park, Los Angeles",NA,NA,NA,1,1,1,1,1,1,4,6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Valinda, Los Angeles",NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Valley Glen, Los Angeles",NA,NA,NA,1,3,6,6,7,9,11,12,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Van Nuys, Los Angeles",NA,NA,NA,1,1,2,2,4,4,4,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Venice, Los Angeles",1,2,4,4,4,6,7,7,8,9,11,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Vermont Knolls, Los Angeles",NA,NA,NA,1,1,1,1,1,1,1,3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Vermont Vista, Los Angeles",NA,NA,NA,NA,NA,1,1,1,3,3,5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Vernon Central, Los Angeles",NA,NA,NA,NA,NA,1,1,1,1,1,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Walnut, Los Angeles",NA,NA,1,1,2,1,1,1,1,1,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Watts, Los Angeles",NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"West Adams, Los Angeles",1,1,1,1,1,2,1,1,3,4,6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"West Covina, Los Angeles",NA,NA,NA,NA,NA,1,1,1,1,2,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"West Hills, Los Angeles",3,3,3,3,3,4,4,4,4,4,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"West Hollywood, Los Angeles",5,8,11,12,15,18,19,23,31,31,35,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"West Los Angeles, Los Angeles",NA,NA,1,2,3,3,3,4,4,4,5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"West Vernon, Los Angeles",1,1,1,1,1,2,2,2,4,5,6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"West Whittier/Los Nietos, Los Angeles",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Westchester, Los Angeles",1,2,2,3,3,3,3,3,3,5,7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Westlake, Los Angeles",NA,NA,NA,NA,NA,1,1,1,1,1,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Westwood, Los Angeles",NA,NA,NA,2,5,5,5,6,6,9,11,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Whittier, Los Angeles",NA,NA,NA,2,2,2,2,2,3,3,3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Wholesale District, Los Angeles",NA,NA,NA,NA,NA,NA,NA,NA,1,4,6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Willowbrook, Los Angeles",NA,NA,NA,NA,NA,NA,NA,NA,1,1,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Wilmington, Los Angeles",NA,NA,NA,NA,NA,NA,1,3,4,4,5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Wilshire Center, Los Angeles",NA,NA,NA,NA,NA,NA,NA,1,1,2,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Winnetka, Los Angeles",NA,NA,NA,NA,1,1,1,1,2,3,3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Woodland Hills, Los Angeles",NA,2,3,3,4,5,5,7,8,11,14,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"San Ysidro, San Diego",NA,NA,NA,NA,NA,NA,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Santa Clarita and Stevenson Ranch, Los Angeles",3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"","03/16/20","03/17/20","03/18/20","03/19/20","03/20/20","03/21/20","03/22/20","03/23/20","03/24/20","03/25/20","03/26/20","03/27/20","03/28/20","03/29/20","03/30/20","03/31/20","04/01/20","04/02/20","04/03/20","04/04/20","04/05/20","04/06/20","04/07/20","04/08/20"
+"Bakersfield East, Kern",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,70,83,94,96
+"Bakersfield West, Kern",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,101,107,110,112
+"Desert, Kern",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,6,6,6,6
+"Mountain, Kern",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,7,8,8,8
+"Valley, Kern",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,39,42,43,43
+"Los Angeles, Los Angeles",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1020,1171,1386,1580,1787,2047,2361,2659,2851,3130,3360
+"Aliso Viejo, Orange",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2,NA,3,3,4,6,8,8,8,9,9,10,11
+"Anaheim, Orange",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,28,37,41,42,46,56,60,63,74,79,92,95,104
+"Brea, Orange",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,3,3,3,3,4,4,4,4,4,4,4,5
+"Buena Park, Orange",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,7,12,14,15,16,19,21,22,22,25,28,30,31
+"Costa Mesa, Orange",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,8,9,11,11,10,12,14,14,18,18,20,21,21
+"Cypress, Orange",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,6,7,9,10,11,15,18,18,18,18,21,22,23
+"Dana Point, Orange",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,7,6,6,7,9,11,11,11,11,11,11,11,11
+"Fountain Valley, Orange",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,5,6,7,8,8,8,8,8,9,12,12,14,15
+"Fullerton, Orange",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,7,8,9,12,12,13,14,15,17,19,20,21,23
+"Garden Grove, Orange",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,4,7,8,8,10,12,15,18,19,21,22,24,28
+"Huntington Beach, Orange",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,26,32,33,33,32,39,44,48,55,58,62,67,73
+"Irvine, Orange",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,33,36,38,43,50,57,65,69,70,75,77,82,89
+"La Habra, Orange",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,2,2,2,2,5,6,8,8,13,15,17,20
+"La Palma, Orange",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,6,6,6,6,6,6,6,7,10,11
+"Ladera Ranch, Orange",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,6,6,8,8,8,8,8
+"Laguna Beach, Orange",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,22,22,25,28,29,31,32,34,34,34
+"Laguna Hills, Orange",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,2,3,3,5,7,7,9,9,11
+"Laguna Niguel, Orange",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,11,13,13,15,16,16,16,20,20,21,21,21,25
+"Laguna Woods, Orange",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,1,NA,NA,NA,NA,NA,NA,6
+"Lake Forest, Orange",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,5,7,7,9,10,11,14,15,15,16,16,14,16
+"Mission Viejo, Orange",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,6,7,7,9,9,16,16,18,22,22,22,23,27
+"Newport Beach, Orange",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,32,36,37,41,46,54,48,67,70,73,73,75,78
+"Orange, Orange",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,11,11,13,13,15,17,19,21,24,27,29,32,34
+"Other/Unknown, Orange",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,55,60,69,64,62,68,72
+"Placentia, Orange",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,5,6,6,6,6,11,12,13,16,19,20,21,22
+"Rancho Santa Margarita, Orange",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,3,4,4,5,5,8,6,6,6,6,6,7,8
+"San Clemente, Orange",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,10,11,12,16,20,30,31,35,37,37,38,40,41
+"San Juan Capistrano, Orange",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,9,9,9,9,10,13,15,16,16,16,16,17,18
+"Santa Ana, Orange",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,13,20,22,22,24,36,40,43,51,58,62,65,74
+"Seal Beach, Orange",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,1,1,1,2,2,2,3,3,3,3,3
+"Stanton, Orange",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,1,1,1,1,1,1,1,2,2,2
+"Trabuco Canyon, Orange",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,5,5,5,5,7
+"Tustin, Orange",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,4,7,7,7,7,10,12,13,13,15,16,17,19
+"Westminster, Orange",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,5,5,6,7,7,7,7,7,9,10,13,14,14
+"Yorba Linda, Orange",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,10,12,12,NA,15,19,19,22,24,26,27,28,32
+"Arroyo Grande, San Luis Obispo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,13,13,13,14,14
+"Atascadero, San Luis Obispo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,18,19,19,19,20
+"Morro Bay, San Luis Obispo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,6,6,6,6,6
+"Nipomo, San Luis Obispo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,5,5,5,6,6
+"Other, San Luis Obispo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,11,11,11,13,13
+"Paso Robles, San Luis Obispo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,26,27,27,27,29
+"San Luis Obispo, San Luis Obispo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,8,8,8,8,8
+"Templeton, San Luis Obispo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,6,6,6,6,6
+"Camarillo, Ventura",NA,NA,NA,NA,NA,NA,NA,5,5,8,9,14,15,19,21,21,24,27,28,29,30,31,32,32
+"Lake Sherwood, Ventura",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,2,2,2,2,2,2,2,2,2,2,2,2
+"Moorpark, Ventura",NA,NA,NA,NA,NA,NA,NA,1,3,3,3,7,7,7,8,8,12,12,12,14,14,15,15,17
+"Newbury Park, Ventura",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,3,4,4,4,5,5,5,7
+"Oak Park, Ventura",NA,NA,NA,NA,NA,NA,NA,1,1,2,3,3,3,6,6,6,7,7,7,7,9,9,9,9
+"Oak View, Ventura",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,1,1,1,1,1,1,1,1,1,1,1
+"Ojai, Ventura",NA,NA,NA,NA,NA,NA,NA,1,2,2,2,2,2,2,2,2,2,3,4,4,4,4,4,4
+"Oxnard, Ventura",NA,NA,NA,NA,NA,NA,NA,3,4,5,8,11,12,15,18,18,24,29,30,39,40,42,46,49
+"Piru, Ventura",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,1,1,1,1,1,1
+"Port Hueneme, Ventura",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,2,2,2,2,2,2,2,2,2,2,2,3
+"Santa Paula, Ventura",NA,NA,NA,NA,NA,NA,NA,2,2,2,2,2,2,2,2,2,2,3,3,3,3,3,3,4
+"Santa Rosa Valley, Ventura",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,1,1,1,1,1,1
+"Simi Valley, Ventura",NA,NA,NA,NA,NA,NA,NA,11,11,12,15,15,20,20,21,21,27,30,37,39,46,47,55,61
+"Somis, Ventura",NA,NA,NA,NA,NA,NA,NA,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+"Thousand Oaks, Ventura",NA,NA,NA,NA,NA,NA,NA,5,5,7,8,10,15,15,22,22,33,35,30,29,33,33,36,40
+"Ventura, Ventura",NA,NA,NA,NA,NA,NA,NA,4,4,6,7,10,11,11,14,14,18,19,19,20,21,21,21,23
+"Westlake, Ventura",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,7,7,8,8,9,8
+"Anza, Riverside",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,3,3,3,4,4,NA
+"Banning, Riverside",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,2,2,4,12,16,18,19,19,21,34,NA
+"Beaumont, Riverside",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,5,5,4,8,9,10,11,12,14,16,17,18,NA
+"Bermuda Dunes, Riverside",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2,2,2,2,2,2,3,3,NA
+"Blythe, Riverside",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,1,2,1,1,2,2,2,2,2,2,NA
+"Calimesa, Riverside",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,0,NA,1,1,2,2,3,3,3,NA
+"Canyon Lake, Riverside",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,1,1,3,3,3,3,3,3,3,3,NA
+"Cathedral City, Riverside",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,3,4,5,7,10,12,15,17,17,21,29,31,NA
+"Cherry Valley, Riverside",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,1,1,1,1,1,1,NA
+"Coachella, Riverside",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,1,1,1,1,7,7,21,36,37,NA
+"Corona, Riverside",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,12,13,16,17,21,23,27,34,34,42,47,48,NA
+"Desert Edge, Riverside",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,1,2,2,2,2,2,NA
+"Desert Hot Springs, Riverside",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,3,4,4,6,7,6,6,6,6,7,8,8,NA
+"Desert Palms, Riverside",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,3,3,3,3,3,3,3,3,NA
+"East Hemet, Riverside",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,1,2,2,2,NA
+"Eastvale, Riverside",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,11,11,9,16,14,16,16,22,22,25,29,29,NA
+"El Cerrito, Riverside",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,1,1,1,1,3,3,NA
+"El Sobrante, Riverside",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,6,5,5,8,8,8,9,10,NA
+"French Valley, Riverside",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,7,12,12,12,12,12,12,12,NA
+"Garnet, Riverside",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2,3,NA
+"Good Hope, Riverside",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,1,2,2,2,2,4,NA
+"Green Acres, Riverside",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,1,1,1,1,1,1,NA
+"Hemet, Riverside",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,1,4,5,7,9,14,14,16,18,19,NA
+"Home Gardens, Riverside",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,1,1,1,1,1,1,NA
+"Idyllwild-Pine Cove, Riverside",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,1,2,2,NA
+"Indian Wells, Riverside",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,2,3,5,6,6,8,8,8,8,9,NA
+"Indio, Riverside",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,8,8,11,16,20,23,24,33,33,44,51,55,NA
+"Indio Hills, Riverside",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,1,1,NA
+"Jurupa Valley, Riverside",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2,2,3,3,5,5,5,7,8,11,14,16,NA
+"La Quinta, Riverside",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,4,5,8,11,14,17,18,17,18,22,24,25,NA
+"Lake Elsinore, Riverside",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,4,4,5,6,10,10,12,17,18,20,23,25,NA
+"Lakeland Village, Riverside",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,NA,1,1,1,1,1,NA
+"Mead Valley, Riverside",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,3,3,4,4,5,6,NA
+"Meadowbrook, Riverside",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,0,NA,1,1,1,1,1,NA
+"Mecca, Riverside",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,2,2,3,3,3,NA
+"Menifee, Riverside",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,8,8,6,9,13,15,17,23,25,32,35,37,NA
+"Mesa Verde, Riverside",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2,2,2,2,2,2,2,2,NA
+"Moreno Valley, Riverside",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,20,20,23,23,29,38,46,56,59,74,90,94,NA
+"Murrieta, Riverside",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,11,12,8,14,14,16,22,33,33,39,44,46,NA
+"Norco, Riverside",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,1,1,1,2,2,3,3,4,6,6,NA
+"Nuevo, Riverside",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,2,2,2,2,2,2,NA
+"Oasis, Riverside",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,2,2,2,NA
+"Palm Desert, Riverside",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,12,13,13,23,21,24,30,36,36,42,45,46,NA
+"Palm Springs, Riverside",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,15,18,22,26,31,30,35,43,46,48,57,57,NA
+"Perris, Riverside",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,4,4,4,8,9,13,15,18,22,31,41,42,NA
+"Rancho Mirage, Riverside",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,9,9,11,13,13,13,13,15,15,18,18,18,NA
+"Riverside, Riverside",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,21,21,19,29,30,33,38,52,55,63,83,96,NA
+"San Jacinto, Riverside",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,1,1,1,2,2,6,7,8,9,10,NA
+"Sky Valley, Riverside",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,NA
+"Temecula, Riverside",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,16,16,14,24,21,24,26,36,38,44,46,47,NA
+"Temescal Valley, Riverside",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,1,1,1,1,4,NA
+"Thermal, Riverside",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,1,NA
+"Thousand Palms, Riverside",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,2,2,NA
+"Valle Vista, Riverside",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,NA
+"Warm Springs, Riverside",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,2,2,NA
+"Wildomar, Riverside",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,5,5,5,6,9,10,11,13,14,15,19,20,NA
+"Woodcrest, Riverside",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,2,2,3,3,4,4,5,NA
+"Adelanto, San Bernardino",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,3,3,3,3,3,3,NA
+"Alta Loma, San Bernardino",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,2,2,4,4,4,4,4,NA
+"Apple Valley, San Bernardino",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,2,3,4,4,4,7,7,NA
+"Barstow, San Bernardino",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,3,4,6,6,6,6,6,7,8,NA
+"Big Bear City, San Bernardino",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,1,2,2,2,2,2,NA
+"Big Bear Lake, San Bernardino",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,2,3,3,3,3,3,3,NA
+"Bloomington, San Bernardino",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2,2,2,3,3,3,3,7,7,NA
+"Blue Jay, San Bernardino",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2,2,2,2,2,2,2,NA
+"Chino, San Bernardino",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,3,6,9,11,13,13,13,16,17,NA
+"Chino Hills, San Bernardino",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,5,8,9,10,14,15,15,22,23,NA
+"Colton, San Bernardino",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,2,4,8,8,7,8,9,NA
+"Crestline, San Bernardino",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,1,1,1,1,1,NA
+"Fontana, San Bernardino",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,8,15,23,25,35,40,40,66,67,NA
+"Fort Irwin, San Bernardino",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,NA
+"Grand Terrace, San Bernardino",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,1,1,1,1,2,2,NA
+"Hesperia, San Bernardino",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,4,4,4,6,9,9,18,19,NA
+"Highland, San Bernardino",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,7,8,9,11,14,15,15,21,22,NA
+"Joshua Tree, San Bernardino",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,2,2,2,1,NA
+"Loma Linda, San Bernardino",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,3,5,6,7,9,9,9,12,13,NA
+"Mentone, San Bernardino",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,2,2,2,3,3,4,4,NA
+"Montclair, San Bernardino",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,3,4,4,4,4,5,5,NA
+"Oak Hills, San Bernardino",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,1,1,1,1,1,2,2,NA
+"Ontario, San Bernardino",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,5,9,10,14,18,19,18,28,29,NA
+"Phelan, San Bernardino",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,1,1,1,1,1,1,1,NA
+"Rancho Cucamonga, San Bernardino",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,14,14,23,25,26,28,28,36,37,NA
+"Redlands, San Bernardino",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,7,10,17,19,26,27,27,41,40,NA
+"Rialto, San Bernardino",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,7,7,11,12,13,13,13,26,26,NA
+"Rimforest, San Bernardino",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,1,1,1,1,1,NA
+"Running Springs, San Bernardino",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2,2,2,2,2,2,2,2,2,NA
+"San Bernardino, San Bernardino",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,6,7,13,15,20,22,23,40,41,NA
+"Undetermined, San Bernardino",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,16,21,21,NA
+"Upland, San Bernardino",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,6,7,11,14,14,14,14,18,18,NA
+"Victorville, San Bernardino",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,6,7,7,9,9,10,10,20,20,NA
+"Wrightwood, San Bernardino",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,1,1,1,1,1,NA
+"Yucaipa, San Bernardino",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,18,53,60,68,69,70,70,77,85,NA
+"Yucca Valley, San Bernardino",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,2,2,2,2,2,2,3,3,NA
+"Alpine, San Diego",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,1,1,1,NA
+"Bonita, San Diego",NA,NA,NA,NA,NA,NA,NA,NA,1,1,1,NA,2,2,4,3,6,6,7,8,8,8,11,NA
+"Borrego Springs, San Diego",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,1,1,1,NA
+"Carlsbad, San Diego",NA,NA,NA,NA,NA,NA,NA,12,13,16,15,18,19,20,24,27,30,32,37,39,41,42,42,NA
+"Chula Vista, San Diego",NA,NA,NA,NA,NA,NA,NA,4,7,13,17,21,24,24,32,38,52,65,75,86,95,104,120,NA
+"Coronado, San Diego",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,1,1,1,2,2,4,4,4,4,4,NA
+"Del Mar, San Diego",NA,NA,NA,NA,NA,NA,NA,4,5,5,5,6,6,6,6,5,5,5,7,7,8,8,8,NA
+"Descanso, San Diego",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,1,1,1,NA
+"El Cajon, San Diego",NA,NA,NA,NA,NA,NA,NA,2,8,13,19,20,26,29,34,36,38,43,60,67,72,74,85,NA
+"Encinitas, San Diego",NA,NA,NA,NA,NA,NA,NA,5,7,8,12,14,16,18,19,20,24,25,27,27,29,30,31,NA
+"Escondido, San Diego",NA,NA,NA,NA,NA,NA,NA,3,6,6,7,7,9,9,10,11,14,23,26,27,28,28,32,NA
+"Fallbrook, San Diego",NA,NA,NA,NA,NA,NA,NA,2,2,2,2,3,4,4,4,4,4,6,5,6,6,6,6,NA
+"Imperial Beach, San Diego",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,2,3,6,7,7,NA
+"Jamul, San Diego",NA,NA,NA,NA,NA,NA,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,1,1,1,2,3,NA
+"La Mesa, San Diego",NA,NA,NA,NA,NA,NA,NA,1,1,1,1,3,3,4,6,8,11,12,15,18,18,23,25,NA
+"Lakeside, San Diego",NA,NA,NA,NA,NA,NA,NA,1,2,2,2,2,2,3,4,5,8,8,8,9,10,12,14,NA
+"Lemon Grove, San Diego",NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,1,2,3,4,5,5,8,10,13,12,13,14,NA
+"National City, San Diego",NA,NA,NA,NA,NA,NA,NA,2,3,5,6,6,8,8,8,10,11,12,18,18,19,25,25,NA
+"Oceanside, San Diego",NA,NA,NA,NA,NA,NA,NA,4,7,7,8,8,11,11,14,17,20,22,27,29,30,31,31,NA
+"Other/Unknown, San Diego",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,62,62,69,61,73,125,133,103,NA
+"Pauma Valley, San Diego",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,2,2,2,2,2,2,NA
+"Poway, San Diego",NA,NA,NA,NA,NA,NA,NA,2,2,3,4,5,7,7,7,7,9,10,13,13,13,14,15,NA
+"Ramona, San Diego",NA,NA,NA,NA,NA,NA,NA,2,2,2,2,3,4,4,4,4,4,4,6,7,7,8,9,NA
+"Ranchita, San Diego",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2,2,2,2,2,NA
+"Rancho Santa Fe, San Diego",NA,NA,NA,NA,NA,NA,NA,3,5,5,5,6,7,7,10,11,12,14,13,14,14,14,14,NA
+"San Diego, San Diego",NA,NA,NA,NA,NA,NA,NA,118,141,169,207,251,284,314,350,422,486,540,614,649,686,713,750,NA
+"San Marcos, San Diego",NA,NA,NA,NA,NA,NA,NA,3,3,3,3,3,3,4,5,5,10,12,13,17,17,19,20,NA
+"Santee, San Diego",NA,NA,NA,NA,NA,NA,NA,1,1,1,2,2,2,2,3,5,5,10,12,15,16,16,14,NA
+"Solana Beach, San Diego",NA,NA,NA,NA,NA,NA,NA,2,1,1,1,1,1,2,2,3,3,5,5,5,5,5,5,NA
+"Spring Valley, San Diego",NA,NA,NA,NA,NA,NA,NA,NA,3,4,4,5,9,9,12,17,18,21,23,27,28,34,34,NA
+"Valley Center, San Diego",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,3,3,3,3,NA
+"Vista, San Diego",NA,NA,NA,NA,NA,NA,NA,2,2,3,5,6,10,10,11,8,9,9,15,17,18,21,22,NA
+"Goleta, Santa Barbara",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2,2,2,2,2,3,4,4,4,5,5,5,NA
+"Goleta Valley & Gaviota, Santa Barbara",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,1,1,3,9,9,9,9,9,9,9,NA
+"Isla Vista, Santa Barbara",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,1,1,1,1,1,NA
+"Lompoc, Santa Barbara",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,1,1,2,7,12,14,17,29,29,37,55,NA
+"North County, Santa Barbara",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2,2,3,13,16,15,15,15,15,15,NA
+"Orcutt, Santa Barbara",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,5,5,5,5,5,6,13,18,18,19,20,22,22,NA
+"Santa Barbara, Santa Barbara",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,11,20,25,25,25,23,26,28,30,31,31,32,33,NA
+"Santa Maria, Santa Barbara",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,8,10,19,20,20,21,28,39,44,45,48,53,59,NA
+"Santa Ynez Valley, Santa Barbara",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2,1,2,2,2,2,3,4,5,5,5,5,5,NA
+"South County, Santa Barbara",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,5,6,8,10,9,6,9,6,9,10,11,13,14,NA
+"Corona Del Mar, Orange",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,12,NA,NA,NA,NA,NA,NA
+"Los Alamitos, Orange",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,1,NA,NA,NA,NA,NA,NA,NA
+"Other, Orange",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,27,39,40,15,16,16,NA,NA,NA,NA,NA,NA,NA
+"Villa Park, Orange",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,1,NA,NA,NA,NA,NA,NA,NA
+"Westlake Village, Ventura",NA,NA,NA,NA,NA,NA,NA,1,1,2,2,5,5,6,5,5,NA,NA,NA,NA,NA,NA,NA,NA
+"Bonia, San Diego",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Agoura Hills, Los Angeles",NA,NA,NA,NA,NA,NA,NA,1,3,3,5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Alhambra, Los Angeles",2,1,1,2,3,3,3,4,5,6,8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Altadena, Los Angeles",NA,1,NA,NA,2,3,3,5,5,5,6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Arcadia, Los Angeles",1,1,2,2,2,2,2,3,4,4,6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Arleta, Los Angeles",NA,NA,NA,NA,NA,NA,NA,NA,NA,1,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Athens, Los Angeles",NA,NA,NA,NA,NA,NA,1,1,1,1,3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Azusa, Los Angeles",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Baldwin Hills, Los Angeles",NA,1,1,1,1,2,3,3,3,3,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Bell, Los Angeles",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Bell Gardens, Los Angeles",NA,NA,NA,NA,NA,NA,NA,NA,NA,3,3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Bellflower, Los Angeles",NA,NA,NA,NA,NA,NA,1,3,3,7,8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Beverly Hills, Los Angeles",1,1,4,4,5,7,8,12,12,13,15,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Beverlywood, Los Angeles",NA,NA,NA,2,2,5,6,7,7,8,10,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Boyle Heights, Los Angeles",5,5,5,5,5,5,5,5,5,5,7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Brentwood, Los Angeles",NA,1,2,13,16,18,23,27,31,34,42,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Burbank, Los Angeles",NA,NA,NA,1,1,1,2,2,2,3,6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Calabasas, Los Angeles",NA,NA,NA,1,1,1,2,3,4,4,5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Canoga Park, Los Angeles",NA,NA,NA,NA,NA,NA,1,2,2,2,3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Canyon Country, Los Angeles",NA,NA,NA,NA,NA,NA,NA,NA,1,1,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Carson, Los Angeles",1,1,1,1,3,3,4,6,8,9,21,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Castaic, Los Angeles",NA,NA,NA,1,1,1,1,1,2,2,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Century City, Los Angeles",NA,NA,NA,5,4,4,4,4,6,7,9,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Century Palms/Cove, Los Angeles",NA,NA,1,NA,1,1,1,1,1,3,3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Cerritos, Los Angeles",NA,NA,NA,NA,NA,1,2,2,2,2,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Chatsworth, Los Angeles",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Claremont, Los Angeles",NA,NA,NA,NA,NA,NA,NA,NA,1,1,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Cloverdale/Cochran, Los Angeles",NA,NA,NA,NA,NA,NA,NA,1,2,3,3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Compton, Los Angeles",NA,NA,NA,NA,NA,NA,NA,1,1,2,5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Covina, Los Angeles",NA,NA,NA,1,1,1,1,1,3,3,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Crenshaw District, Los Angeles",NA,NA,NA,NA,NA,NA,NA,NA,NA,2,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Crestview, Los Angeles",NA,NA,NA,1,1,4,5,6,7,7,9,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Culver City, Los Angeles",2,2,2,3,4,4,4,5,7,6,8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Del Rey, Los Angeles",NA,NA,NA,NA,NA,2,2,2,3,5,9,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Diamond Bar, Los Angeles",2,2,2,2,2,2,2,2,2,2,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Downey, Los Angeles",NA,NA,NA,NA,NA,NA,NA,NA,1,5,10,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Downtown, Los Angeles",NA,NA,NA,NA,1,1,1,2,3,6,7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Duarte, Los Angeles",NA,NA,NA,NA,NA,NA,NA,1,1,1,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Eagle Rock, Los Angeles",NA,1,1,1,1,1,1,2,2,2,3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"East Hollywood, Los Angeles",NA,NA,NA,NA,NA,NA,1,1,1,1,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"East Los Angeles, Los Angeles",NA,NA,NA,1,1,1,2,2,3,3,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Echo Park, Los Angeles",NA,NA,NA,1,1,1,1,2,2,4,7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"El Segundo, Los Angeles",NA,NA,NA,NA,1,2,1,1,2,2,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Encino, Los Angeles",3,5,6,6,8,10,10,10,12,13,21,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Exposition Park, Los Angeles",NA,NA,NA,NA,NA,NA,NA,1,1,1,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Florence, Los Angeles",NA,NA,NA,NA,NA,NA,NA,1,1,4,7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Gardena, Los Angeles",1,1,1,1,1,1,1,1,1,1,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Glassell Park, Los Angeles",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Glendale, Los Angeles",2,3,4,4,4,5,6,9,10,12,23,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Glendora, Los Angeles",1,NA,NA,NA,NA,NA,1,1,1,2,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Granada Hills, Los Angeles",3,3,3,4,4,4,4,5,5,7,8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Hacienda Heights, Los Angeles",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Hancock Park, Los Angeles",NA,NA,NA,2,2,4,5,6,7,8,10,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Harbor City, Los Angeles",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Harbor Gateway, Los Angeles",NA,NA,NA,NA,NA,NA,NA,NA,1,2,3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Harvard Heights, Los Angeles",NA,NA,NA,NA,NA,NA,NA,NA,1,1,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Hawthorne, Los Angeles",NA,NA,NA,1,2,2,2,3,6,8,9,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Highland Park, Los Angeles",NA,NA,NA,NA,NA,NA,NA,NA,1,2,3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Hollywood, Los Angeles",NA,NA,5,5,7,12,12,14,19,23,27,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Hollywood Hills, Los Angeles",NA,NA,2,2,2,2,5,7,8,8,17,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Hyde Park, Los Angeles",NA,NA,NA,NA,NA,NA,NA,1,1,1,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Inglewood, Los Angeles",2,1,1,2,2,2,3,3,5,5,12,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Koreatown, Los Angeles",1,1,1,1,1,1,2,3,5,5,7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"La Canada Flintridge, Los Angeles",NA,NA,NA,NA,NA,1,1,2,2,3,6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"La Mirada, Los Angeles",2,3,3,3,3,3,3,3,3,4,5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"La Puente, Los Angeles",NA,NA,NA,NA,NA,NA,NA,NA,1,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"La Verne, Los Angeles",NA,NA,NA,NA,NA,1,2,2,2,2,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Lake Balboa, Los Angeles",NA,NA,NA,NA,1,1,1,2,2,2,3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Lakewood, Los Angeles",NA,NA,NA,NA,1,1,1,1,3,4,7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Lancaster, Los Angeles",1,NA,NA,NA,3,3,4,7,8,13,16,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Lawndale, Los Angeles",NA,NA,NA,1,1,1,1,2,2,1,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Leimert Park, Los Angeles",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Lincoln Heights, Los Angeles",NA,NA,NA,NA,NA,NA,NA,1,1,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Little Bangladesh, Los Angeles",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Lomita, Los Angeles",NA,NA,NA,5,5,7,8,8,9,9,12,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Long Beach, Los Angeles",5,8,8,12,14,15,17,19,28,41,54,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Los Feliz, Los Angeles",NA,NA,NA,NA,NA,NA,1,2,2,3,5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Lynwood, Los Angeles",NA,1,1,1,1,1,2,2,2,3,6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Manhattan Beach, Los Angeles",3,4,4,5,6,7,7,9,11,17,21,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Mar Vista, Los Angeles",NA,1,1,1,3,4,5,6,6,6,8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Maywood, Los Angeles",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Melrose, Los Angeles",2,9,10,11,11,12,17,19,26,33,47,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Miracle Mile, Los Angeles",NA,NA,NA,NA,1,1,4,5,7,8,13,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Monrovia, Los Angeles",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Montebello, Los Angeles",NA,NA,NA,NA,NA,1,NA,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Monterey Park, Los Angeles",NA,1,2,2,2,3,3,3,3,4,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Mt. Washington, Los Angeles",NA,NA,NA,NA,NA,NA,NA,NA,1,2,3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"North Hills, Los Angeles",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"North Hollywood, Los Angeles",NA,1,2,3,5,5,5,9,10,11,15,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Northridge, Los Angeles",1,1,1,1,1,1,1,1,2,2,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Norwalk, Los Angeles",NA,NA,NA,NA,NA,NA,NA,NA,1,2,9,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Pacific Palisades, Los Angeles",NA,NA,NA,5,6,7,7,8,9,9,12,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Pacoima, Los Angeles",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Palmdale, Los Angeles",NA,NA,NA,NA,NA,NA,NA,1,2,2,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Palms, Los Angeles",NA,NA,NA,1,1,1,1,2,6,8,10,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Panorama City, Los Angeles",NA,NA,NA,NA,NA,NA,NA,NA,NA,1,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Paramount, Los Angeles",NA,NA,NA,NA,NA,NA,1,2,2,3,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Park La Brea, Los Angeles",NA,NA,NA,3,4,4,4,6,8,8,8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Pasadena, Los Angeles",2,2,2,2,3,3,3,6,6,7,10,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Pico, Los Angeles",NA,NA,NA,NA,NA,NA,NA,NA,1,2,5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Pico Rivera, Los Angeles",NA,NA,NA,NA,NA,NA,NA,NA,1,1,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Playa Vista, Los Angeles",NA,NA,NA,1,1,2,2,3,4,5,8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Pomona, Los Angeles",NA,NA,NA,NA,NA,NA,NA,NA,NA,1,3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Porter Ranch, Los Angeles",NA,NA,NA,NA,NA,NA,NA,NA,1,1,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Rancho Palos Verdes, Los Angeles",NA,NA,NA,NA,NA,NA,1,1,3,5,6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Redondo Beach, Los Angeles",NA,NA,NA,NA,1,2,4,5,7,9,20,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Reseda, Los Angeles",NA,NA,NA,1,2,3,2,3,4,5,8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"San Dimas, Los Angeles",1,1,1,1,1,1,1,1,1,1,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"San Fernando, Los Angeles",NA,NA,NA,NA,1,1,1,1,2,3,3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"San Gabriel, Los Angeles",NA,NA,NA,NA,NA,NA,NA,NA,1,1,3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"San Pedro, Los Angeles",1,1,1,1,1,1,1,2,2,4,5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Santa Clarita, Los Angeles",NA,2,2,3,4,4,4,7,7,10,16,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Santa Monica, Los Angeles",1,1,3,2,4,5,7,12,16,18,21,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Santa Monica Mountains, Los Angeles",NA,NA,NA,2,2,3,2,2,2,3,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Sherman Oaks, Los Angeles",2,2,4,5,6,7,7,8,10,12,17,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Silver Lake, Los Angeles",1,1,1,NA,NA,3,3,4,5,6,11,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"South El Monte, Los Angeles",NA,NA,NA,1,1,1,1,1,1,3,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"South Gate, Los Angeles",NA,NA,NA,NA,NA,NA,1,1,1,2,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"South Park, Los Angeles",NA,NA,NA,NA,NA,NA,NA,1,1,1,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"South Pasadena, Los Angeles",1,1,1,1,2,2,3,3,3,3,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"South Whittier, Los Angeles",NA,NA,NA,NA,1,1,1,2,2,3,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Stevenson Ranch, Los Angeles",NA,NA,NA,1,1,1,1,2,2,2,3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Studio City, Los Angeles",NA,NA,NA,3,3,4,4,7,7,7,11,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Sun Valley, Los Angeles",NA,NA,NA,NA,NA,1,1,2,2,2,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Sunland, Los Angeles",NA,NA,NA,NA,NA,1,1,1,1,1,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Sylmar, Los Angeles",NA,NA,1,1,1,1,1,1,1,1,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Tarzana, Los Angeles",5,5,5,5,6,7,8,8,9,9,14,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Temple City, Los Angeles",NA,NA,NA,NA,NA,NA,1,1,1,3,6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Torrance, Los Angeles",2,1,2,2,2,2,3,4,5,9,14,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Tujunga, Los Angeles",NA,NA,NA,1,1,1,1,1,1,1,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"University Park, Los Angeles",NA,NA,NA,1,1,1,1,1,1,4,6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Valinda, Los Angeles",NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Valley Glen, Los Angeles",NA,NA,NA,1,3,6,6,7,9,11,12,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Van Nuys, Los Angeles",NA,NA,NA,1,1,2,2,4,4,4,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Venice, Los Angeles",1,2,4,4,4,6,7,7,8,9,11,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Vermont Knolls, Los Angeles",NA,NA,NA,1,1,1,1,1,1,1,3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Vermont Vista, Los Angeles",NA,NA,NA,NA,NA,1,1,1,3,3,5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Vernon Central, Los Angeles",NA,NA,NA,NA,NA,1,1,1,1,1,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Walnut, Los Angeles",NA,NA,1,1,2,1,1,1,1,1,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Watts, Los Angeles",NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"West Adams, Los Angeles",1,1,1,1,1,2,1,1,3,4,6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"West Covina, Los Angeles",NA,NA,NA,NA,NA,1,1,1,1,2,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"West Hills, Los Angeles",3,3,3,3,3,4,4,4,4,4,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"West Hollywood, Los Angeles",5,8,11,12,15,18,19,23,31,31,35,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"West Los Angeles, Los Angeles",NA,NA,1,2,3,3,3,4,4,4,5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"West Vernon, Los Angeles",1,1,1,1,1,2,2,2,4,5,6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"West Whittier/Los Nietos, Los Angeles",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Westchester, Los Angeles",1,2,2,3,3,3,3,3,3,5,7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Westlake, Los Angeles",NA,NA,NA,NA,NA,1,1,1,1,1,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Westwood, Los Angeles",NA,NA,NA,2,5,5,5,6,6,9,11,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Whittier, Los Angeles",NA,NA,NA,2,2,2,2,2,3,3,3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Wholesale District, Los Angeles",NA,NA,NA,NA,NA,NA,NA,NA,1,4,6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Willowbrook, Los Angeles",NA,NA,NA,NA,NA,NA,NA,NA,1,1,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Wilmington, Los Angeles",NA,NA,NA,NA,NA,NA,1,3,4,4,5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Wilshire Center, Los Angeles",NA,NA,NA,NA,NA,NA,NA,1,1,2,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Winnetka, Los Angeles",NA,NA,NA,NA,1,1,1,1,2,3,3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Woodland Hills, Los Angeles",NA,2,3,3,4,5,5,7,8,11,14,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"San Ysidro, San Diego",NA,NA,NA,NA,NA,NA,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Santa Clarita and Stevenson Ranch, Los Angeles",3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA

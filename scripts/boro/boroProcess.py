@@ -152,7 +152,7 @@ def main():
     input_directory = sys.argv[1]
     output_filename = sys.argv[2]
 
-    # Fetch boro data from the gien URL
+    # Fetch boro data from the given URL
     fetchBoroDataFromURL(input_directory)
 
     # Process/format boro data and output to a csv file

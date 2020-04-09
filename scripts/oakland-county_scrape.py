@@ -102,7 +102,7 @@ data_file.write(','.join(header) + "\n")
 sorted_zip_codes = sorted(data.keys())
 
 for zip_code in sorted_zip_codes:
-	data_file.write('"%s",' % zip_code)
+	data_file.write('%s,' % zip_code)
 	data_file.write(','.join(data[zip_code]) + "\n")
 
 data_file.close()

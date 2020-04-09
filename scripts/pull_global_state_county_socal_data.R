@@ -55,8 +55,8 @@ read_latimes_agency_data <- function(csv.url){
   #losangeles.lon <- losangeles.data[grep(losangeles.pattern, losangeles.data$place),]$x
   places <- paste(socal.level.data$place, socal.level.data$county, sep=', ')
   times <- as.numeric(as.POSIXct(socal.level.data$date))
-  dates <- stringr::str_replace(format(as.POSIXct(times, origin="1970-01-01"), "%m/%d/%y"), "^0", "")
-  unique.dates <- unique(stringr::str_replace(format(as.POSIXct(sort(times), origin="1970-01-01"), "%m/%d/%y"), "^0", ""))
+  dates <- format(as.POSIXct(times, origin="1970-01-01"), "%m/%d/%y")
+  unique.dates <- unique(format(as.POSIXct(sort(times), origin="1970-01-01"), "%m/%d/%y"))
   unique.places <- unique(places)
   socal.time.series.data <- data.frame(row.names=unique.places)
   for (datestr in unique.dates){

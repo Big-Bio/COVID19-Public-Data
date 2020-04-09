@@ -24,7 +24,7 @@ number of cases reported for cities in southern California stored as
 ## How should the data be formatted?
 
 We are generating comma-delimited files with quotations around each field. The first column will be row names corresponding to sub-locations of the place you are processing. The remaining column names will
-be the date in `M/DD/YY` format. Each entry has a numeric value for the feature at each date. All days should be included in the file and if there is missing data, fill in the entry with `NA`. 
+be the date in `MM/DD/YY` format. Each entry has a numeric value for the feature at each date. All days should be included in the file and if there is missing data, fill in the entry with `NA`. 
 
 Please see the example CSV above.
 

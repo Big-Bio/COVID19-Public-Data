@@ -20,16 +20,16 @@ $ python scripts/boro/boroProcess.pyboroProcess.py ${input_directory} ${output_f
 
 For example: 
 ```
-$ python scripts/boro/boroProcess.py boro_data/ processed_data/cases/nyc_cases.csv
+$ python scripts/boro/boroProcess.py raw_data/boro_data/ processed_data/cases/nyc_cases.csv
 ```
 The file tree will be like:
 ```
 .
 ├── README.md
-├── boro_data
-│   ├── boro04012020
-│   ├── ...
-│   └── boro04082020
+├── raw_data
+│   └── boro_data
+│       ├── boro04012020
+│       └── ...
 ├── geo_data
 │   └── ...
 ├── log

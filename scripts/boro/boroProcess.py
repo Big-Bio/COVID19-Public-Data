@@ -19,7 +19,7 @@ logging.basicConfig(filename='log/boroProcess.log',
 logger = logging.getLogger()
 
 
-def fetchBoroDataFromURL():
+def fetchBoroDataFromURL(input_directory):
     """Fetches boro data from BORO_DATA_URL and write to boro_data/.
 
     Fetches latest boro data provided by BORO_DATA_URL and saves it to 
@@ -36,7 +36,7 @@ def fetchBoroDataFromURL():
     """
     now = datetime.datetime.now()
     try:
-        filename = 'boro_data/boro' + now.strftime('%m%d%Y')
+        filename = input_directory + 'boro' + now.strftime('%m%d%Y')
         response = urllib2.urlopen(BORO_DATA_URL)
         content = response.read()
         with open(filename, 'w') as file:
@@ -189,7 +189,7 @@ def main():
     output_filename = sys.argv[2]
 
     # Fetch boro data from the gien URL
-    fetchBoroDataFromURL()
+    fetchBoroDataFromURL(input_directory)
 
     # Process/format boro data and output to a csv file
     (boro_data, regions) = processBoroData(input_directory)

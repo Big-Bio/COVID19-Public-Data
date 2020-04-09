@@ -20,7 +20,7 @@ $ python scripts/boro/boroProcess.pyboroProcess.py ${input_directory} ${output_f
 
 For example: 
 ```
-$ python scripts/boro/boroProcess.py raw_data/boro_data/ processed_data/cases/nyc_cases.csv
+$ python scripts/boro/boroProcess.py raw_data/boro_data/ processed_data/cases/US/nyc-borough_cases.csv
 ```
 The file tree will be like:
 ```

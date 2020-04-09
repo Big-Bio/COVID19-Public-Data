@@ -6,7 +6,10 @@ import numpy as np
 import os
 import pandas as pd
 import sys
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+import utils
 import urllib2
+
 
 BORO = 'boro'
 BORO_DATA_URL = \
@@ -46,19 +49,6 @@ def fetchBoroDataFromURL(input_directory):
         logger.error('Fail: Can not fetch boro data for day: ' + now.strftime('%m%d%Y'))
 
 
-def fetchFilenamesFromDirectory(directory):
-    """Fetches the name of all files in the specified directory.
-
-    Args:
-        directory: str, the path to the specified directory
-
-    Returns:
-        list of str, the name of all files in the specified directory
-
-    """
-    return os.listdir(directory)
-
-
 def fetchTimeFromFilename(filename):
     """Fetches the name from the given filename and formats it.
 
@@ -93,7 +83,7 @@ def processBoroData(input_directory):
         regions: dict, the key is the name of the region.
                    
     """
-    list_of_filenames = fetchFilenamesFromDirectory(input_directory)
+    list_of_filenames = utils.fetchFilenamesFromDirectory(input_directory)
     boro_data = {}
     regions = {}
     for filename in list_of_filenames:
@@ -121,32 +111,6 @@ def processBoroData(input_directory):
     return (boro_data, regions)
 
 
-def getDays():
-    """Fetches all days from Jan 22, 2020 to the execution day.
-
-    Args:
-        None
-
-    Returns:
-        list of str, all the formatted time between Jan 22, 2020
-                     to the execution day. An example of list element
-                     is '4/8/20'.
-
-    """
-    now = datetime.datetime.now()
-    start_date = datetime.date(2020, 1, 22)
-    end_date = datetime.date(now.year, now.month, now.day)
-    delta = datetime.timedelta(days=1)
-    days = []
-
-    while start_date <= end_date:
-        time = str(start_date.month) + '/' + str(start_date.day) + '/' \
-            + str(start_date.year)[-2:]
-        start_date += delta
-        days.append(time)
-    return days
-
-
 def format_boro_data(boro_data, regions, output_filename):
     """Formats boro data and output to a csv file.
 
@@ -163,7 +127,7 @@ def format_boro_data(boro_data, regions, output_filename):
         None
 
     """
-    days = getDays()
+    days = utils.getDays()
     formatted_data = {'': days}
 
     for region in regions:

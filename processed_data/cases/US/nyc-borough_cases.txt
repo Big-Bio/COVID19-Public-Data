@@ -1,0 +1,3 @@
+Sourced from NYC Health
+Case numbers over time for NYC boroughs.
+Scripts to generate in scripts/boro written by Yilin Zhu

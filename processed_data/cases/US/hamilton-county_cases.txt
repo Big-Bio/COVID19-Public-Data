@@ -1,0 +1,3 @@
+Cases number of Hamilton County, Ohio by ZIP codes, updated weekly. Currently no access to historical data.
+The data is scraped from https://www.hamiltoncountyhealth.org/covid19/ with get_hamilton_zipcode_cases.py
+-- Albert Lee (github: avallonking)

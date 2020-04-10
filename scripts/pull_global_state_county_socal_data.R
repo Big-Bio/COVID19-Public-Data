@@ -35,16 +35,16 @@ read_latimes_agency_data <- function(csv.url){
   socal.level.data <- read.csv(csv.url, check.names=FALSE, stringsAsFactors = FALSE)
   # remove complete duplicate rows
   socal.level.data <- socal.level.data[!duplicated(socal.level.data[,c("date", "county", "fips", "place")]),]
-  losangeles.data <- socal.level.data[socal.level.data$county == "Los Angeles",]
-  unincorporated.pattern <- "^Unincorporated - "
-  unincorporated.cities <- grep(unincorporated.pattern, losangeles.data$place, value = TRUE)
-  losangeles.pattern <- "^Los Angeles - "
-  losangeles.cities <- grep(losangeles.pattern, losangeles.data$place, value = TRUE)
-  cityof.pattern <- "^City of "
-  cityof.cities <- grep(cityof.pattern, losangeles.data$place, value=TRUE)
+  #losangeles.data <- socal.level.data[socal.level.data$county == "Los Angeles",]
+  #unincorporated.pattern <- "^Unincorporated - "
+  #unincorporated.cities <- grep(unincorporated.pattern, losangeles.data$place, value = TRUE)
+  #losangeles.pattern <- "^Los Angeles - "
+  #losangeles.cities <- grep(losangeles.pattern, losangeles.data$place, value = TRUE)
+  #cityof.pattern <- "^City of "
+  #cityof.cities <- grep(cityof.pattern, losangeles.data$place, value=TRUE)
   place.to.remove <- c("Under Investigation", "- Under Investigation", "Unknown", "Smaller Los Angeles neighborhoods",
                        "Unincorporated Florence-Firestone", "Unincorporated - Florence-Firestone", "Los Angeles - Florence-Firestone")
-  place.to.remove <- c(place.to.remove, losangeles.cities, unincorporated.cities, cityof.cities)
+  #place.to.remove <- c(place.to.remove, losangeles.cities, unincorporated.cities, cityof.cities)
   socal.level.data <- socal.level.data[!(socal.level.data$place %in% place.to.remove),]
   #unincorporated.la.cities <- stringr::str_replace(grep(unincorporated.pattern, losangeles.data$place, value = TRUE), unincorporated.pattern, "")
   #unincorporated.lat <- losangeles.data[grep(unincorporated.pattern, losangeles.data$place),]$y
@@ -55,8 +55,8 @@ read_latimes_agency_data <- function(csv.url){
   #losangeles.lon <- losangeles.data[grep(losangeles.pattern, losangeles.data$place),]$x
   places <- paste(socal.level.data$place, socal.level.data$county, sep=', ')
   times <- as.numeric(as.POSIXct(socal.level.data$date))
-  dates <- format(as.POSIXct(times, origin="1970-01-01"), "%m/%d/%y")
-  unique.dates <- unique(format(as.POSIXct(sort(times), origin="1970-01-01"), "%m/%d/%y"))
+  dates <- stringr::str_replace(format(as.POSIXct(times, origin="1970-01-01"), "%m/%d/%y"), "^0", "")
+  unique.dates <- unique(stringr::str_replace(format(as.POSIXct(sort(times), origin="1970-01-01"), "%m/%d/%y"), "^0", ""))
   unique.places <- unique(places)
   socal.time.series.data <- data.frame(row.names=unique.places)
   for (datestr in unique.dates){

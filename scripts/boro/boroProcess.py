@@ -127,7 +127,7 @@ def format_boro_data(boro_data, regions, output_filename):
         None
 
     """
-    days = utils.getDays()
+    days = utils.getDays(2020, 4, 1)
     formatted_data = {'': days}
 
     for region in regions:

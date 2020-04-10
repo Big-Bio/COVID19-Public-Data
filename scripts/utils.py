@@ -4,20 +4,22 @@ import datetime
 import os
 
 
-def getDays():
-    """Fetches all days from Jan 22, 2020 to the execution day.
+def getDays(year, month, day):
+    """Fetches all days from given start date to the execution day.
 
     Args:
-        None
+        year: int, the year of the start date
+        month: int, the month of the start date
+        day: int, the day of the start date
 
     Returns:
-        list of str, all the formatted time between Jan 22, 2020
+        list of str, all the formatted time between the start date
                      to the execution day. An example of list element
                      is '4/8/20'.
 
     """
     now = datetime.datetime.now()
-    start_date = datetime.date(2020, 1, 22)
+    start_date = datetime.date(year, month, day)
     end_date = datetime.date(now.year, now.month, now.day)
     delta = datetime.timedelta(days=1)
     days = []

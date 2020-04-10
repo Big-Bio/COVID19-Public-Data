@@ -129,7 +129,7 @@ def format_output_data(
 
     """
 
-    days = utils.getDays()
+    days = utils.getDays(2020, 4, 7)
     formatted_beds_data = {'': days}
     formatted_ventilators_data = {'': days}
 

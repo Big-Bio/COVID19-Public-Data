@@ -12,7 +12,7 @@ oakland_base_url = "https://oakgov.maps.arcgis.com/apps/opsdashboard/index.html#
 
 driver = webdriver.PhantomJS()
 driver.get(oakland_base_url)
-time.sleep(3) # Wait for PhantomJS to do its thing
+time.sleep(5) # Wait for PhantomJS to do its thing
 update_element = driver.find_element_by_xpath("//*[contains(text(), 'Updated')]")
 update_string = update_element.text
 

@@ -19,6 +19,7 @@ read_csse_us_time_series_data <- function(csv.url){
   tol <- 1e-2
   states.to.remove <- c("Grand Princess", "Diamond Princess")
   raw.time.series <- raw.time.series[!(raw.time.series$Province_State %in% states.to.remove),]
+  raw.time.series <- raw.time.series[,colnames(raw.time.series) != "Population"] # This is in the case but not death file??????
   # State level
   state.level.time.series <- aggregate(raw.time.series[,12:ncol(raw.time.series)],by=raw.time.series[,"Province_State",drop=F], FUN = sum )
   rownames(state.level.time.series) <- state.level.time.series[,"Province_State"]
@@ -35,7 +36,7 @@ read_latimes_agency_data <- function(csv.url){
   socal.level.data <- read.csv(csv.url, check.names=FALSE, stringsAsFactors = FALSE)
   # remove complete duplicate rows
   socal.level.data <- socal.level.data[!duplicated(socal.level.data[,c("date", "county", "fips", "place")]),]
-  #losangeles.data <- socal.level.data[socal.level.data$county == "Los Angeles",]
+  losangeles.data <- socal.level.data[socal.level.data$county == "Los Angeles",]
   #unincorporated.pattern <- "^Unincorporated - "
   #unincorporated.cities <- grep(unincorporated.pattern, losangeles.data$place, value = TRUE)
   #losangeles.pattern <- "^Los Angeles - "
@@ -55,8 +56,8 @@ read_latimes_agency_data <- function(csv.url){
   #losangeles.lon <- losangeles.data[grep(losangeles.pattern, losangeles.data$place),]$x
   places <- paste(socal.level.data$place, socal.level.data$county, sep=', ')
   times <- as.numeric(as.POSIXct(socal.level.data$date))
-  dates <- stringr::str_replace(format(as.POSIXct(times, origin="1970-01-01"), "%m/%d/%y"), "^0", "")
-  unique.dates <- unique(stringr::str_replace(format(as.POSIXct(sort(times), origin="1970-01-01"), "%m/%d/%y"), "^0", ""))
+  dates <- format(as.POSIXct(times, origin="1970-01-01"), "%m/%d/%y")
+  unique.dates <- unique(format(as.POSIXct(sort(times), origin="1970-01-01"), "%m/%d/%y"))
   unique.places <- unique(places)
   socal.time.series.data <- data.frame(row.names=unique.places)
   for (datestr in unique.dates){

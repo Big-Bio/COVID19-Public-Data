@@ -19,6 +19,7 @@ read_csse_us_time_series_data <- function(csv.url){
   tol <- 1e-2
   states.to.remove <- c("Grand Princess", "Diamond Princess")
   raw.time.series <- raw.time.series[!(raw.time.series$Province_State %in% states.to.remove),]
+  raw.time.series <- raw.time.series[,colnames(raw.time.series) != "Population"] # This is in the case but not death file??????
   # State level
   state.level.time.series <- aggregate(raw.time.series[,12:ncol(raw.time.series)],by=raw.time.series[,"Province_State",drop=F], FUN = sum )
   rownames(state.level.time.series) <- state.level.time.series[,"Province_State"]
@@ -36,15 +37,15 @@ read_latimes_agency_data <- function(csv.url){
   # remove complete duplicate rows
   socal.level.data <- socal.level.data[!duplicated(socal.level.data[,c("date", "county", "fips", "place")]),]
   losangeles.data <- socal.level.data[socal.level.data$county == "Los Angeles",]
-  unincorporated.pattern <- "^Unincorporated - "
-  unincorporated.cities <- grep(unincorporated.pattern, losangeles.data$place, value = TRUE)
-  losangeles.pattern <- "^Los Angeles - "
-  losangeles.cities <- grep(losangeles.pattern, losangeles.data$place, value = TRUE)
-  cityof.pattern <- "^City of "
-  cityof.cities <- grep(cityof.pattern, losangeles.data$place, value=TRUE)
+  #unincorporated.pattern <- "^Unincorporated - "
+  #unincorporated.cities <- grep(unincorporated.pattern, losangeles.data$place, value = TRUE)
+  #losangeles.pattern <- "^Los Angeles - "
+  #losangeles.cities <- grep(losangeles.pattern, losangeles.data$place, value = TRUE)
+  #cityof.pattern <- "^City of "
+  #cityof.cities <- grep(cityof.pattern, losangeles.data$place, value=TRUE)
   place.to.remove <- c("Under Investigation", "- Under Investigation", "Unknown", "Smaller Los Angeles neighborhoods",
                        "Unincorporated Florence-Firestone", "Unincorporated - Florence-Firestone", "Los Angeles - Florence-Firestone")
-  place.to.remove <- c(place.to.remove, losangeles.cities, unincorporated.cities, cityof.cities)
+  #place.to.remove <- c(place.to.remove, losangeles.cities, unincorporated.cities, cityof.cities)
   socal.level.data <- socal.level.data[!(socal.level.data$place %in% place.to.remove),]
   #unincorporated.la.cities <- stringr::str_replace(grep(unincorporated.pattern, losangeles.data$place, value = TRUE), unincorporated.pattern, "")
   #unincorporated.lat <- losangeles.data[grep(unincorporated.pattern, losangeles.data$place),]$y

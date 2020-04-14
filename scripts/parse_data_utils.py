@@ -25,3 +25,4 @@ def date_string_to_quoted(date_string):
     year = year[-2:]
   
   return '"%s/%s/%s"' % (month, date, year)
+	

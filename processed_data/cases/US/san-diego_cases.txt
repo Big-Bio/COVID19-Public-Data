@@ -1,0 +1,4 @@
+Number of cases from San Diego by Zip Code
+No updated information available. Added manually.
+City-level time-series available in southern-california_cases.csv
+--Eileen Lu

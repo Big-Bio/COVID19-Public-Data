@@ -10,6 +10,7 @@ import numpy as np
 
 url = 'https://raw.githubusercontent.com/BlankerL/DXY-COVID-19-Data/master/csv/DXYArea.csv'
 df = pd.read_csv(url, index_col=False, usecols=['countryEnglishName','provinceEnglishName','province_confirmedCount','province_deadCount','updateTime','cityEnglishName','city_confirmedCount','city_deadCount'])
+
 '''
 ##use if url doesn't work, download file from github, then open locally
 url = 'DXYArea.csv'
@@ -18,8 +19,10 @@ df = pd.read_csv(open(url,'r'), index_col=False, usecols=['countryEnglishName','
 
 ##filter out only CHINA cases
 df = df[df.countryEnglishName == 'China']
-##get year-month-date
-df['date'] = [x[0:10] for x in df['updateTime']]
+##get year-month-date in format MM/DD/YY
+df['date'] = [str(x[5:7]+'/'+x[8:10]+'/'+x[2:4]) for x in df['updateTime']]
+#in format YYYY-MM-DD
+#df['date'] = [x[0:10] for x in df['updateTime']]
 
 ##China province confirmed count
 df_province_c = df.loc[:,['provinceEnglishName','province_confirmedCount','date']]

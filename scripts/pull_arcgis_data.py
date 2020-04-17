@@ -7,6 +7,10 @@ This script scrapes data from Esri ArcGIS to get COVID-19 counts by zip code. It
 is currently written to take counts for Sarpy County, NE; Douglas County, NE;
 and Spokane County, WA.
 Code for the script is based off of oakland-county_scrape.py (by Daisy Chen).
+
+Note: this script can be easily extended to scrape data for another county using
+ArcGIS by adding an entry to csv_names, date_query_urls, data_urls, zip_fields,
+and case_fields at the bottom of this script.
 """
 
 
@@ -156,24 +160,33 @@ def write_data(file_path, date, zips, cases):
 
 
 if __name__ == "__main__":
+    # Filenames for the CSVs
     csv_names = [
         "sarpy-nebraska_cases.csv",
         "douglas-nebraska_cases.csv",
         "spokane-washington_cases.csv"
     ]
-    date_query_urls = [
+    
+    # URLs with ArcGIS feature layer description through which to scrape the
+    # last edit date
+    overview_urls = [
     "https://services.arcgis.com/OiG7dbwhQEWoy77N/arcgis/rest/services/SarpyCassCOVID_View/FeatureServer/0",
     "https://services.arcgis.com/pDAi2YK0L0QxVJHj/arcgis/rest/services/COVID19_Cases_by_ZIP_(View)/FeatureServer/0",
     "https://services7.arcgis.com/Zrf5IrTQfEv8XhMg/arcgis/rest/services/Covid_Cases_by_Zipcode/FeatureServer/0"
 
     ]
+    
+    # URLs with REST API call to query for case counts
     data_urls = [
     "https://services.arcgis.com/OiG7dbwhQEWoy77N/arcgis/rest/services/SarpyCassCOVID_View/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&outFields=ZipCode,Cases&orderByFields=ZipCode",
     "https://services.arcgis.com/pDAi2YK0L0QxVJHj/arcgis/rest/services/COVID19_Cases_by_ZIP_(View)/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&outFields=*",
     "https://services7.arcgis.com/Zrf5IrTQfEv8XhMg/arcgis/rest/services/Covid_Cases_by_Zipcode/FeatureServer/0/query?f=json&where=ZIP_RATE%3E0&returnGeometry=false&outFields=ZCTA5CE10,N&orderByFields=ZCTA5CE10"
     ]
 
+    # Name of the field storing the zip codes in the data_url's response
     zip_fields = [u'ZipCode', u'ZipCode', 'ZCTA5CE10']
+    
+    # Name of the field storing the case counts in the data_url's response
     case_fields = [u'Cases', u'Cases', u'N']
     
     cases_rel_path = os.path.abspath("../processed_data/cases/US")

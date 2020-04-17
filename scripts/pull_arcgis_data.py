@@ -9,7 +9,7 @@ and Spokane County, WA.
 Code for the script is based off of oakland-county_scrape.py (by Daisy Chen).
 
 Note: this script can be easily extended to scrape data for another county using
-ArcGIS by adding an entry to csv_names, date_query_urls, data_urls, zip_fields,
+ArcGIS by adding an entry to csv_names, overview_urls, data_urls, zip_fields,
 and case_fields at the bottom of this script.
 """
 
@@ -23,7 +23,7 @@ def get_update_date(date_query_url):
         A string of the form mm/dd/yyyy.
     """
     response = requests.get(date_query_url)
-    
+
     #response HTML will hold date in the form:
     #<b>Last Edit Date:</b> 4/16/2020 10:31:29 PM<br/>
     regex = '<b>Last Edit Date:</b>(.*)<br/>'
@@ -31,13 +31,13 @@ def get_update_date(date_query_url):
     res = re.search(pattern, response.text)
     utc_str_time = res.group(1).strip()
     utc_time = datetime.strptime(utc_str_time, '%m/%d/%Y %I:%M:%S %p')
-    
+
     # Convert time to local time
     now_timestamp = time.time()
     timezone_offset = datetime.fromtimestamp(now_timestamp) - \
         datetime.utcfromtimestamp(now_timestamp)
     local_time = utc_time + timezone_offset
-    
+
     date = local_time.strftime('%m/%d/%Y')
     #local_time = local_time.strftime('%H:%M:%S')
     return date
@@ -96,10 +96,8 @@ def write_data(file_path, date, zips, cases):
         dates = read_csv.readline().strip().split(',')
         if quoted_date in dates:
             overwrite = True
-            print(
-                "WARNING: data has already been updated today... "
-                "overwriting data for today with recently fetched data."
-            )
+            print("WARNING: data has already been updated today... "
+                  "overwriting data for today with recently fetched data.")
         # Fill in new_data with old data from the csv.
         for row in read_csv:
             values = row.strip().split(',')
@@ -112,10 +110,9 @@ def write_data(file_path, date, zips, cases):
     except IOError:
         print("Creating csv file at %s" % file_path)
 
-    num_dates = 0  # Excludes today
-    if (len(dates) > 1):
-        num_dates = len(
-            dates) - 2  # List of dates begins with an empty string.
+    num_dates = len(dates) - 1  # Excluding today
+    if overwrite:
+        num_dates = num_dates - 1
 
     # Fill in new_data with today's data.
     for zip_code, case_count in zip(zips, cases):
@@ -141,8 +138,7 @@ def write_data(file_path, date, zips, cases):
             print(expected_entries)
             sys.exit(
                 "ERROR: Inconsistency in number of data points for zip code %s."
-                " Data failed to update."
-                % zip_code)
+                " Data failed to update." % zip_code)
 
     # Overwrite csv
     write_csv = open(file_path, 'w+')
@@ -162,44 +158,42 @@ def write_data(file_path, date, zips, cases):
 if __name__ == "__main__":
     # Filenames for the CSVs
     csv_names = [
-        "sarpy-nebraska_cases.csv",
-        "douglas-nebraska_cases.csv",
+        "sarpy-nebraska_cases.csv", "douglas-nebraska_cases.csv",
         "spokane-washington_cases.csv"
     ]
-    
+
     # URLs with ArcGIS feature layer description through which to scrape the
     # last edit date
     overview_urls = [
-    "https://services.arcgis.com/OiG7dbwhQEWoy77N/arcgis/rest/services/SarpyCassCOVID_View/FeatureServer/0",
-    "https://services.arcgis.com/pDAi2YK0L0QxVJHj/arcgis/rest/services/COVID19_Cases_by_ZIP_(View)/FeatureServer/0",
-    "https://services7.arcgis.com/Zrf5IrTQfEv8XhMg/arcgis/rest/services/Covid_Cases_by_Zipcode/FeatureServer/0"
-
+        "https://services.arcgis.com/OiG7dbwhQEWoy77N/arcgis/rest/services/SarpyCassCOVID_View/FeatureServer/0",
+        "https://services.arcgis.com/pDAi2YK0L0QxVJHj/arcgis/rest/services/COVID19_Cases_by_ZIP_(View)/FeatureServer/0",
+        "https://services7.arcgis.com/Zrf5IrTQfEv8XhMg/arcgis/rest/services/Covid_Cases_by_Zipcode/FeatureServer/0"
     ]
-    
+
     # URLs with REST API call to query for case counts
     data_urls = [
-    "https://services.arcgis.com/OiG7dbwhQEWoy77N/arcgis/rest/services/SarpyCassCOVID_View/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&outFields=ZipCode,Cases&orderByFields=ZipCode",
-    "https://services.arcgis.com/pDAi2YK0L0QxVJHj/arcgis/rest/services/COVID19_Cases_by_ZIP_(View)/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&outFields=*",
-    "https://services7.arcgis.com/Zrf5IrTQfEv8XhMg/arcgis/rest/services/Covid_Cases_by_Zipcode/FeatureServer/0/query?f=json&where=ZIP_RATE%3E0&returnGeometry=false&outFields=ZCTA5CE10,N&orderByFields=ZCTA5CE10"
+        "https://services.arcgis.com/OiG7dbwhQEWoy77N/arcgis/rest/services/SarpyCassCOVID_View/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&outFields=ZipCode,Cases&orderByFields=ZipCode",
+        "https://services.arcgis.com/pDAi2YK0L0QxVJHj/arcgis/rest/services/COVID19_Cases_by_ZIP_(View)/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&outFields=*",
+        "https://services7.arcgis.com/Zrf5IrTQfEv8XhMg/arcgis/rest/services/Covid_Cases_by_Zipcode/FeatureServer/0/query?f=json&where=ZIP_RATE%3E0&returnGeometry=false&outFields=ZCTA5CE10,N&orderByFields=ZCTA5CE10"
     ]
 
     # Name of the field storing the zip codes in the data_url's response
     zip_fields = [u'ZipCode', u'ZipCode', 'ZCTA5CE10']
-    
+
     # Name of the field storing the case counts in the data_url's response
     case_fields = [u'Cases', u'Cases', u'N']
-    
+
     cases_rel_path = os.path.abspath("../processed_data/cases/US")
-    
-    for i in range(0,len(csv_names)):
+
+    for i in range(0, len(csv_names)):
         csv_name = csv_names[i]
-        date_query_url = date_query_urls[i]
+        overview_url = overview_urls[i]
         data_url = data_urls[i]
         case_field = case_fields[i]
         zip_field = zip_fields[i]
-        
+
         file_path = "%s/%s" % (cases_rel_path, csv_name)
 
-        date = get_update_date(date_query_url)
+        date = get_update_date(overview_url)
         zips, cases = get_case_counts(data_url, case_field, zip_field)
         write_data(file_path, date, zips, cases)

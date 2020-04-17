@@ -1,34 +1,45 @@
 import requests
-import os, sys, time
+import os, sys, time, re
 import parse_data_utils
+from datetime import datetime
 """
-This script scrapes data from ArcGIS to get COVID-19 counts by zip code. It is
-currently written to take counts for Sarpy County in NE (dashboard can be found
-at https://covid19.dogis.org/app/90ea18d2368e43d495255a13b6989ae8).
+This script scrapes data from Esri ArcGIS to get COVID-19 counts by zip code. It
+is currently written to take counts for Sarpy County, NE; Douglas County, NE;
+and Spokane County, WA.
 Code for the script is based off of oakland-county_scrape.py (by Daisy Chen).
+
+Note: this script can be easily extended to scrape data for another county using
+ArcGIS by adding an entry to csv_names, date_query_urls, data_urls, zip_fields,
+and case_fields at the bottom of this script.
 """
 
 
-def get_update_date(date_query_url, time_field):
+def get_update_date(date_query_url):
     """Fetches the last update date for the data.
     
     Args:
         date_query_url: The url from which to grab the date.
-        time_field: The field name for the xml element holding the time.
     Returns:
         A string of the form mm/dd/yyyy.
     """
     response = requests.get(date_query_url)
-
-    try:
-        features = response.json()[u'features']
-    except:
-        sys.exit("ERROR: could not extract 'features' field from JSON.")
-
-    epoch_time = features[0][u'attributes'][
-        time_field]  # the epoch time of the last time the data was updated in ms
-    date = time.strftime('%m/%d/%Y', time.localtime(epoch_time / 1000.0))
-    #local_time = time.strftime('%H:%M:%S', time.localtime(epoch_time/1000.0))
+    
+    #response HTML will hold date in the form:
+    #<b>Last Edit Date:</b> 4/16/2020 10:31:29 PM<br/>
+    regex = '<b>Last Edit Date:</b>(.*)<br/>'
+    pattern = re.compile(regex)
+    res = re.search(pattern, response.text)
+    utc_str_time = res.group(1).strip()
+    utc_time = datetime.strptime(utc_str_time, '%m/%d/%Y %I:%M:%S %p')
+    
+    # Convert time to local time
+    now_timestamp = time.time()
+    timezone_offset = datetime.fromtimestamp(now_timestamp) - \
+        datetime.utcfromtimestamp(now_timestamp)
+    local_time = utc_time + timezone_offset
+    
+    date = local_time.strftime('%m/%d/%Y')
+    #local_time = local_time.strftime('%H:%M:%S')
     return date
 
 
@@ -45,6 +56,7 @@ def get_case_counts(data_url, case_field, zip_field):
         where zips is a list of zip codes and cases is a list of the corresponding case counts.
     """
     response = requests.get(data_url)
+
     try:
         all_zips = response.json()[u'features']
     except:
@@ -148,17 +160,46 @@ def write_data(file_path, date, zips, cases):
 
 
 if __name__ == "__main__":
-    date_query_url = "https://services.arcgis.com/OiG7dbwhQEWoy77N/arcgis/rest/services/SarpyCassCOVID_View/FeatureServer/1/query?f=json&where=1%3D1&returnGeometry=false&outFields=EditDate&orderByFields=EditDate%20desc&maxFeatures=1"
-    data_url = "https://services.arcgis.com/OiG7dbwhQEWoy77N/arcgis/rest/services/SarpyCassCOVID_View/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&outFields=ZipCode,Cases&orderByFields=ZipCode"
+    # Filenames for the CSVs
+    csv_names = [
+        "sarpy-nebraska_cases.csv",
+        "douglas-nebraska_cases.csv",
+        "spokane-washington_cases.csv"
+    ]
+    
+    # URLs with ArcGIS feature layer description through which to scrape the
+    # last edit date
+    overview_urls = [
+    "https://services.arcgis.com/OiG7dbwhQEWoy77N/arcgis/rest/services/SarpyCassCOVID_View/FeatureServer/0",
+    "https://services.arcgis.com/pDAi2YK0L0QxVJHj/arcgis/rest/services/COVID19_Cases_by_ZIP_(View)/FeatureServer/0",
+    "https://services7.arcgis.com/Zrf5IrTQfEv8XhMg/arcgis/rest/services/Covid_Cases_by_Zipcode/FeatureServer/0"
 
-    time_field = u'EditDate'
-    case_field = u'Cases'
-    zip_field = u'ZipCode'
+    ]
+    
+    # URLs with REST API call to query for case counts
+    data_urls = [
+    "https://services.arcgis.com/OiG7dbwhQEWoy77N/arcgis/rest/services/SarpyCassCOVID_View/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&outFields=ZipCode,Cases&orderByFields=ZipCode",
+    "https://services.arcgis.com/pDAi2YK0L0QxVJHj/arcgis/rest/services/COVID19_Cases_by_ZIP_(View)/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&outFields=*",
+    "https://services7.arcgis.com/Zrf5IrTQfEv8XhMg/arcgis/rest/services/Covid_Cases_by_Zipcode/FeatureServer/0/query?f=json&where=ZIP_RATE%3E0&returnGeometry=false&outFields=ZCTA5CE10,N&orderByFields=ZCTA5CE10"
+    ]
 
-    csv_name = "sarpy_cases.csv"
+    # Name of the field storing the zip codes in the data_url's response
+    zip_fields = [u'ZipCode', u'ZipCode', 'ZCTA5CE10']
+    
+    # Name of the field storing the case counts in the data_url's response
+    case_fields = [u'Cases', u'Cases', u'N']
+    
     cases_rel_path = os.path.abspath("../processed_data/cases/US")
-    file_path = "%s/%s" % (cases_rel_path, csv_name)
+    
+    for i in range(0,len(csv_names)):
+        csv_name = csv_names[i]
+        date_query_url = date_query_urls[i]
+        data_url = data_urls[i]
+        case_field = case_fields[i]
+        zip_field = zip_fields[i]
+        
+        file_path = "%s/%s" % (cases_rel_path, csv_name)
 
-    date = get_update_date(date_query_url, time_field)
-    zips, cases = get_case_counts(data_url, case_field, zip_field)
-    write_data(file_path, date, zips, cases)
+        date = get_update_date(date_query_url)
+        zips, cases = get_case_counts(data_url, case_field, zip_field)
+        write_data(file_path, date, zips, cases)

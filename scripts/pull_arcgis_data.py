@@ -6,7 +6,8 @@ from datetime import datetime
 This script scrapes data from Esri ArcGIS to get COVID-19 counts by zip code. It
 is currently written to take counts for Sarpy County, NE; Douglas County, NE;
 and Spokane County, WA.
-Code for the script is based off of oakland-county_scrape.py (by Daisy Chen).
+Code for the script is based off of oakland-county_scrape.py (by Daisy Chen) and
+is meant to be run with Python 3.
 
 Note: this script can be easily extended to scrape data for another county using
 ArcGIS by adding an entry to csv_names, overview_urls, data_urls, zip_fields,
@@ -14,15 +15,15 @@ and case_fields at the bottom of this script.
 """
 
 
-def get_update_date(date_query_url):
+def get_update_date(overview_url):
     """Fetches the last update date for the data.
     
     Args:
-        date_query_url: The url from which to grab the date.
+        overview_url: The url from which to grab the date.
     Returns:
         A string of the form mm/dd/yyyy.
     """
-    response = requests.get(date_query_url)
+    response = requests.get(overview_url)
 
     #response HTML will hold date in the form:
     #<b>Last Edit Date:</b> 4/16/2020 10:31:29 PM<br/>

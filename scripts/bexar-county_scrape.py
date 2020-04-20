@@ -50,7 +50,7 @@ for zip_json in all_zip_json:
 	cases_per_100k = zip_json[u'attributes'][san_antonio_case_field]
 	zip_code = zip_json[u'attributes'][u'ZIP_CODE']	
 	if zip_code in zip_code_pop_dict:
-		case_count = round(cases_per_100k*zip_code_pop_dict[zip_code]/100000)
+		case_count = int(round(cases_per_100k*zip_code_pop_dict[zip_code]/100000))
 		case_counts.append(case_count)
 		zip_codes.append(zip_code)
 

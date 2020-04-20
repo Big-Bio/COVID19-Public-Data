@@ -16,13 +16,20 @@ and case_fields at the bottom of this script.
 
 
 def get_update_date(overview_url):
-    """Fetches the last update date for the data.
+    """Fetches the last update date for the data. Dates are converted to local
+    time (i.e. time in LA).
     
     Args:
-        overview_url: The url from which to grab the date.
+        overview_url: The url from which to grab the date. If the url is an
+            empty string, the current date is returned instead.
     Returns:
         A string of the form mm/dd/yyyy.
     """
+    if overview_url == "":
+        print("No update date available. Using today as the date.")
+        today = datetime.fromtimestamp(time.time())
+        today_str = today.strftime('%m/%d/%Y')
+        return today_str
     response = requests.get(overview_url)
 
     #response HTML will hold date in the form:
@@ -44,7 +51,7 @@ def get_update_date(overview_url):
     return date
 
 
-def get_case_counts(data_url, case_field, zip_field):
+def get_case_counts(data_url, case_field, zip_field, location=""):
     """Fetches the case counts for each zip code.
     
     Args:
@@ -160,7 +167,9 @@ if __name__ == "__main__":
     # Filenames for the CSVs
     csv_names = [
         "sarpy-nebraska_cases.csv", "douglas-nebraska_cases.csv",
-        "spokane-washington_cases.csv"
+        "spokane-washington_cases.csv",
+        "washtenaw-michigan_cases.csv",
+        "st.-louis-missouri_cases.csv"
     ]
 
     # URLs with ArcGIS feature layer description through which to scrape the
@@ -168,21 +177,25 @@ if __name__ == "__main__":
     overview_urls = [
         "https://services.arcgis.com/OiG7dbwhQEWoy77N/arcgis/rest/services/SarpyCassCOVID_View/FeatureServer/0",
         "https://services.arcgis.com/pDAi2YK0L0QxVJHj/arcgis/rest/services/COVID19_Cases_by_ZIP_(View)/FeatureServer/0",
-        "https://services7.arcgis.com/Zrf5IrTQfEv8XhMg/arcgis/rest/services/Covid_Cases_by_Zipcode/FeatureServer/0"
+        "https://services7.arcgis.com/Zrf5IrTQfEv8XhMg/arcgis/rest/services/Covid_Cases_by_Zipcode/FeatureServer/0",
+        "https://services2.arcgis.com/xRI3cTw3hPVoEJP0/ArcGIS/rest/services/Join_COVID_Data_(View)_to_Washtenaw_County_Zip_Codes_(cut)/FeatureServer/0",
+        ""
     ]
 
     # URLs with REST API call to query for case counts
     data_urls = [
         "https://services.arcgis.com/OiG7dbwhQEWoy77N/arcgis/rest/services/SarpyCassCOVID_View/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&outFields=ZipCode,Cases&orderByFields=ZipCode",
         "https://services.arcgis.com/pDAi2YK0L0QxVJHj/arcgis/rest/services/COVID19_Cases_by_ZIP_(View)/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&outFields=*",
-        "https://services7.arcgis.com/Zrf5IrTQfEv8XhMg/arcgis/rest/services/Covid_Cases_by_Zipcode/FeatureServer/0/query?f=json&where=ZIP_RATE%3E0&returnGeometry=false&outFields=ZCTA5CE10,N&orderByFields=ZCTA5CE10"
+        "https://services7.arcgis.com/Zrf5IrTQfEv8XhMg/arcgis/rest/services/Covid_Cases_by_Zipcode/FeatureServer/0/query?f=json&where=ZIP_RATE%3E0&returnGeometry=false&outFields=ZCTA5CE10,N&orderByFields=ZCTA5CE10",
+        "https://services2.arcgis.com/xRI3cTw3hPVoEJP0/ArcGIS/rest/services/Join_COVID_Data_(View)_to_Washtenaw_County_Zip_Codes_(cut)/FeatureServer/0/query?f=json&where=ZCTA5CE10%3C%3E48111+AND+ZCTA5CE10%3C%3E48169+AND+ZCTA5CE10%3C49240&returnGeometry=false&outFields=zip,frequency&orderByFields=zip", #(the query removes data for zip codes that are not in Washtenaw)
+        "https://maps6.stlouis-mo.gov/arcgis/rest/services/HEALTH/COVID19_CASES_BY_ZIPCODE/MapServer/1/query?f=json&where=1%3D1&returnGeometry=false&outFields=ZCTA5CE10,Cases&orderByFields=ZCTA5CE10"
     ]
 
     # Name of the field storing the zip codes in the data_url's response
-    zip_fields = [u'ZipCode', u'ZipCode', 'ZCTA5CE10']
+    zip_fields = [u'ZipCode', u'ZipCode', u'ZCTA5CE10', u'zip', u'ZCTA5CE10']
 
     # Name of the field storing the case counts in the data_url's response
-    case_fields = [u'Cases', u'Cases', u'N']
+    case_fields = [u'Cases', u'Cases', u'N', u'frequency', u'Cases']
 
     cases_rel_path = os.path.abspath("../processed_data/cases/US")
 

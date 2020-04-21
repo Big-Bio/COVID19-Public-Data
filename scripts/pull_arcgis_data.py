@@ -5,7 +5,7 @@ from datetime import datetime
 """
 This script scrapes data from Esri ArcGIS to get COVID-19 counts by zip code. It
 is currently written to take counts for Sarpy County, NE; Douglas County, NE;
-and Spokane County, WA.
+Spokane County, WA; Washtenaw County, MI; and St. Louis County, MO.
 Code for the script is based off of oakland-county_scrape.py (by Daisy Chen) and
 is meant to be run with Python 3.
 

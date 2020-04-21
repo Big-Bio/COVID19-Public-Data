@@ -15,18 +15,20 @@ and case_fields at the bottom of this script.
 """
 
 
-def get_update_date(overview_url):
+def get_update_date(overview_url, location=""):
     """Fetches the last update date for the data. Dates are converted to local
     time (i.e. time in LA).
     
     Args:
         overview_url: The url from which to grab the date. If the url is an
             empty string, the current date is returned instead.
+        location: The location for which the data is being scraped.
     Returns:
         A string of the form mm/dd/yyyy.
     """
     if overview_url == "":
-        print("No update date available. Using today as the date.")
+        print("%s - No update date available. Using today as the date." %
+              location)
         today = datetime.fromtimestamp(time.time())
         today_str = today.strftime('%m/%d/%Y')
         return today_str
@@ -58,7 +60,8 @@ def get_case_counts(data_url, case_field, zip_field, location=""):
         data_url: The url from which to grab the data.
         case_field: The field name for the xml element holding the case counts.
         zip_field: The field name for the xml element holding the zip codes.
-        
+        location: The location for which the data is being scraped.
+
     Returns:
         zips, cases
         where zips is a list of zip codes and cases is a list of the corresponding case counts.
@@ -68,7 +71,8 @@ def get_case_counts(data_url, case_field, zip_field, location=""):
     try:
         all_zips = response.json()[u'features']
     except:
-        sys.exit("ERROR: could not extract 'features' field from JSON.")
+        sys.exit("%s - ERROR: could not extract 'features' field from JSON." %
+                 location)
 
     zips = []  # List of zip codes
     cases = []  # List of case counts
@@ -83,7 +87,7 @@ def get_case_counts(data_url, case_field, zip_field, location=""):
     return zips, cases
 
 
-def write_data(file_path, date, zips, cases):
+def write_data(file_path, date, zips, cases, location=""):
     """Writes or appends the data to a csv. Rows are zip codes and columns are dates.
     
     Args:
@@ -91,6 +95,8 @@ def write_data(file_path, date, zips, cases):
         date: The date we should add data to.
         zip: List of zip codes to be updated.
         cases: List of cases corresponding to the given list of zip codes and the given date.
+        location: The location for which the data is being scraped.
+
     """
     # Fetch given csv and store in a dict.
     new_data = {}  # Keys are zip codes, values are lists of case counts
@@ -104,8 +110,9 @@ def write_data(file_path, date, zips, cases):
         dates = read_csv.readline().strip().split(',')
         if quoted_date in dates:
             overwrite = True
-            print("WARNING: data has already been updated today... "
-                  "overwriting data for today with recently fetched data.")
+            print("%s - WARNING: data has already been updated today... "
+                  "overwriting data for today with recently fetched data." %
+                  location)
         # Fill in new_data with old data from the csv.
         for row in read_csv:
             values = row.strip().split(',')
@@ -116,7 +123,7 @@ def write_data(file_path, date, zips, cases):
             new_data[zip_code] = old_cases
         read_csv.close()
     except IOError:
-        print("Creating csv file at %s" % file_path)
+        print("%s - Creating csv file at %s" % (location, file_path))
 
     num_dates = len(dates) - 1  # Excluding today
     if overwrite:
@@ -142,11 +149,9 @@ def write_data(file_path, date, zips, cases):
     # (There might be duplicates!)
     for zip_code in new_data:
         if len(new_data[zip_code]) != expected_entries:
-            print(new_data[zip_code])
-            print(expected_entries)
             sys.exit(
-                "ERROR: Inconsistency in number of data points for zip code %s."
-                " Data failed to update." % zip_code)
+                "%s - ERROR: Inconsistency in number of data points for zip code %s."
+                " Data failed to update." % (location, zip_code))
 
     # Overwrite csv
     write_csv = open(file_path, 'w+')
@@ -167,8 +172,7 @@ if __name__ == "__main__":
     # Filenames for the CSVs
     csv_names = [
         "sarpy-nebraska_cases.csv", "douglas-nebraska_cases.csv",
-        "spokane-washington_cases.csv",
-        "washtenaw-michigan_cases.csv",
+        "spokane-washington_cases.csv", "washtenaw-michigan_cases.csv",
         "st.-louis-missouri_cases.csv"
     ]
 
@@ -187,7 +191,7 @@ if __name__ == "__main__":
         "https://services.arcgis.com/OiG7dbwhQEWoy77N/arcgis/rest/services/SarpyCassCOVID_View/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&outFields=ZipCode,Cases&orderByFields=ZipCode",
         "https://services.arcgis.com/pDAi2YK0L0QxVJHj/arcgis/rest/services/COVID19_Cases_by_ZIP_(View)/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&outFields=*",
         "https://services7.arcgis.com/Zrf5IrTQfEv8XhMg/arcgis/rest/services/Covid_Cases_by_Zipcode/FeatureServer/0/query?f=json&where=ZIP_RATE%3E0&returnGeometry=false&outFields=ZCTA5CE10,N&orderByFields=ZCTA5CE10",
-        "https://services2.arcgis.com/xRI3cTw3hPVoEJP0/ArcGIS/rest/services/Join_COVID_Data_(View)_to_Washtenaw_County_Zip_Codes_(cut)/FeatureServer/0/query?f=json&where=ZCTA5CE10%3C%3E48111+AND+ZCTA5CE10%3C%3E48169+AND+ZCTA5CE10%3C49240&returnGeometry=false&outFields=zip,frequency&orderByFields=zip", #(the query removes data for zip codes that are not in Washtenaw)
+        "https://services2.arcgis.com/xRI3cTw3hPVoEJP0/ArcGIS/rest/services/Join_COVID_Data_(View)_to_Washtenaw_County_Zip_Codes_(cut)/FeatureServer/0/query?f=json&where=ZCTA5CE10%3C%3E48111+AND+ZCTA5CE10%3C%3E48169+AND+ZCTA5CE10%3C49240&returnGeometry=false&outFields=zip,frequency&orderByFields=zip",  #(the query removes data for zip codes that are not in Washtenaw)
         "https://maps6.stlouis-mo.gov/arcgis/rest/services/HEALTH/COVID19_CASES_BY_ZIPCODE/MapServer/1/query?f=json&where=1%3D1&returnGeometry=false&outFields=ZCTA5CE10,Cases&orderByFields=ZCTA5CE10"
     ]
 
@@ -208,6 +212,15 @@ if __name__ == "__main__":
 
         file_path = "%s/%s" % (cases_rel_path, csv_name)
 
-        date = get_update_date(overview_url)
-        zips, cases = get_case_counts(data_url, case_field, zip_field)
-        write_data(file_path, date, zips, cases)
+        # Get location name
+        location = csv_name
+        cases_index = csv_name.find("_cases.csv")
+        if (cases_index > 0):
+            location = csv_name[0:cases_index]
+        
+        # Data scraping:
+        date = get_update_date(overview_url, location)
+        zips, cases = get_case_counts(data_url, case_field, zip_field,
+                                      location)
+        write_data(file_path, date, zips, cases, location)
+        print("%s - Finished scraping data" % location)

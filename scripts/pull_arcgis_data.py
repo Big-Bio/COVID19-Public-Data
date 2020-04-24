@@ -5,7 +5,8 @@ from datetime import datetime
 """
 This script scrapes data from Esri ArcGIS to get COVID-19 counts by zip code. It
 is currently written to take counts for Sarpy County, NE; Douglas County, NE;
-Spokane County, WA; Washtenaw County, MI; and St. Louis County, MO.
+Spokane County, WA; Washtenaw County, MI; St. Louis County, MO; Arizona; and
+Pennsylvania.
 Code for the script is based off of oakland-county_scrape.py (by Daisy Chen) and
 is meant to be run with Python 3.
 
@@ -81,6 +82,15 @@ def get_case_counts(data_url, case_field, zip_field, location=""):
         case_count = zip[u'attributes'][case_field]
         zip_code = zip[u'attributes'][zip_field]
         if zip_code != None:
+            if case_count == 'Data Suppressed':
+                case_count = 'NA'
+            else:
+                try:
+                    case_count = int(case_count)
+                    if case_count < 0:
+                        case_count = 'NA'
+                except:
+                    pass  # (can switch to "case_count = 'NA'" if we wish to remove strings)
             cases.append(case_count)
             zips.append(zip_code)
 
@@ -173,7 +183,8 @@ if __name__ == "__main__":
     csv_names = [
         "sarpy-nebraska_cases.csv", "douglas-nebraska_cases.csv",
         "spokane-washington_cases.csv", "washtenaw-michigan_cases.csv",
-        "st.-louis-missouri_cases.csv"
+        "st.-louis-missouri_cases.csv", "arizona_cases.csv",
+        "pennsylvania_cases.csv"
     ]
 
     # URLs with ArcGIS feature layer description through which to scrape the
@@ -183,7 +194,9 @@ if __name__ == "__main__":
         "https://services.arcgis.com/pDAi2YK0L0QxVJHj/arcgis/rest/services/COVID19_Cases_by_ZIP_(View)/FeatureServer/0",
         "https://services7.arcgis.com/Zrf5IrTQfEv8XhMg/arcgis/rest/services/Covid_Cases_by_Zipcode/FeatureServer/0",
         "https://services2.arcgis.com/xRI3cTw3hPVoEJP0/ArcGIS/rest/services/Join_COVID_Data_(View)_to_Washtenaw_County_Zip_Codes_(cut)/FeatureServer/0",
-        ""
+        "",
+        "https://services1.arcgis.com/mpVYz37anSdrK4d8/ArcGIS/rest/services/CVD_ZIPS_FORWEBMAP/FeatureServer/0",
+        "https://services2.arcgis.com/xtuWQvb2YQnp0z3F/ArcGIS/rest/services/Zip_Code_COVID19_Case_Data/FeatureServer/0"
     ]
 
     # URLs with REST API call to query for case counts
@@ -192,14 +205,22 @@ if __name__ == "__main__":
         "https://services.arcgis.com/pDAi2YK0L0QxVJHj/arcgis/rest/services/COVID19_Cases_by_ZIP_(View)/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&outFields=*",
         "https://services7.arcgis.com/Zrf5IrTQfEv8XhMg/arcgis/rest/services/Covid_Cases_by_Zipcode/FeatureServer/0/query?f=json&where=ZIP_RATE%3E0&returnGeometry=false&outFields=ZCTA5CE10,N&orderByFields=ZCTA5CE10",
         "https://services2.arcgis.com/xRI3cTw3hPVoEJP0/ArcGIS/rest/services/Join_COVID_Data_(View)_to_Washtenaw_County_Zip_Codes_(cut)/FeatureServer/0/query?f=json&where=ZCTA5CE10%3C%3E48111+AND+ZCTA5CE10%3C%3E48169+AND+ZCTA5CE10%3C49240&returnGeometry=false&outFields=zip,frequency&orderByFields=zip",  #(the query removes data for zip codes that are not in Washtenaw)
-        "https://maps6.stlouis-mo.gov/arcgis/rest/services/HEALTH/COVID19_CASES_BY_ZIPCODE/MapServer/1/query?f=json&where=1%3D1&returnGeometry=false&outFields=ZCTA5CE10,Cases&orderByFields=ZCTA5CE10"
+        "https://maps6.stlouis-mo.gov/arcgis/rest/services/HEALTH/COVID19_CASES_BY_ZIPCODE/MapServer/1/query?f=json&where=1%3D1&returnGeometry=false&outFields=ZCTA5CE10,Cases&orderByFields=ZCTA5CE10",
+        "https://services1.arcgis.com/mpVYz37anSdrK4d8/ArcGIS/rest/services/CVD_ZIPS_FORWEBMAP/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&outFields=POSTCODE,ConfirmedCaseCount&orderByFields=POSTCODE",
+        "https://services2.arcgis.com/xtuWQvb2YQnp0z3F/ArcGIS/rest/services/Zip_Code_COVID19_Case_Data/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&outFields=ZIP_CODE,Positive&orderByFields=ZIP_CODE"
     ]
 
     # Name of the field storing the zip codes in the data_url's response
-    zip_fields = [u'ZipCode', u'ZipCode', u'ZCTA5CE10', u'zip', u'ZCTA5CE10']
+    zip_fields = [
+        u'ZipCode', u'ZipCode', u'ZCTA5CE10', u'zip', u'ZCTA5CE10',
+        u'POSTCODE', u'ZIP_CODE'
+    ]
 
     # Name of the field storing the case counts in the data_url's response
-    case_fields = [u'Cases', u'Cases', u'N', u'frequency', u'Cases']
+    case_fields = [
+        u'Cases', u'Cases', u'N', u'frequency', u'Cases',
+        u'ConfirmedCaseCount', u'Positive'
+    ]
 
     cases_rel_path = os.path.abspath("../processed_data/cases/US")
 
@@ -217,7 +238,7 @@ if __name__ == "__main__":
         cases_index = csv_name.find("_cases.csv")
         if (cases_index > 0):
             location = csv_name[0:cases_index]
-        
+
         # Data scraping:
         date = get_update_date(overview_url, location)
         zips, cases = get_case_counts(data_url, case_field, zip_field,

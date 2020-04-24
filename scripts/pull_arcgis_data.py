@@ -90,7 +90,7 @@ def get_case_counts(data_url, case_field, zip_field, location=""):
                     if case_count < 0:
                         case_count = 'NA'
                 except:
-                    pass # (can switch to "case_count = 'NA'" if we wish to remove strings)
+                    pass  # (can switch to "case_count = 'NA'" if we wish to remove strings)
             cases.append(case_count)
             zips.append(zip_code)
 
@@ -183,8 +183,7 @@ if __name__ == "__main__":
     csv_names = [
         "sarpy-nebraska_cases.csv", "douglas-nebraska_cases.csv",
         "spokane-washington_cases.csv", "washtenaw-michigan_cases.csv",
-        "st.-louis-missouri_cases.csv",
-        "arizona_cases.csv",
+        "st.-louis-missouri_cases.csv", "arizona_cases.csv",
         "pennsylvania_cases.csv"
     ]
 
@@ -212,12 +211,16 @@ if __name__ == "__main__":
     ]
 
     # Name of the field storing the zip codes in the data_url's response
-    zip_fields = [u'ZipCode', u'ZipCode', u'ZCTA5CE10', u'zip', u'ZCTA5CE10',
-        u'POSTCODE', u'ZIP_CODE']
+    zip_fields = [
+        u'ZipCode', u'ZipCode', u'ZCTA5CE10', u'zip', u'ZCTA5CE10',
+        u'POSTCODE', u'ZIP_CODE'
+    ]
 
     # Name of the field storing the case counts in the data_url's response
-    case_fields = [u'Cases', u'Cases', u'N', u'frequency', u'Cases',
-        u'ConfirmedCaseCount', u'Positive']
+    case_fields = [
+        u'Cases', u'Cases', u'N', u'frequency', u'Cases',
+        u'ConfirmedCaseCount', u'Positive'
+    ]
 
     cases_rel_path = os.path.abspath("../processed_data/cases/US")
 
@@ -235,7 +238,7 @@ if __name__ == "__main__":
         cases_index = csv_name.find("_cases.csv")
         if (cases_index > 0):
             location = csv_name[0:cases_index]
-        
+
         # Data scraping:
         date = get_update_date(overview_url, location)
         zips, cases = get_case_counts(data_url, case_field, zip_field,

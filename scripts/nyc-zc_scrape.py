@@ -26,7 +26,7 @@ response = requests.get(nyc_data_url).text # Grabs raw csv
 zip_codes = [] # List of zip codes
 case_counts = [] # List of case counts
 
-for line in response.split('\n')[1:]:
+for line in response.strip().split('\n')[1:]:
 	zip_code, case_count, _, _ = line.strip().split(',')
 	case_counts.append(str(int(case_count)))
 	zip_codes.append(zip_code)

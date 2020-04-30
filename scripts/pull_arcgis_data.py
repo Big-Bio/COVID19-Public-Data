@@ -139,16 +139,19 @@ def write_data(file_path, date, zips, cases, location=""):
     if overwrite:
         num_dates = num_dates - 1
 
+    expected_entries = num_dates + 1
+
     # Fill in new_data with today's data.
     for zip_code, case_count in zip(zips, cases):
         quoted_zip_code = '"%s"' % zip_code
         if quoted_zip_code in new_data:
-            new_data[quoted_zip_code].append(str(case_count))
+            if len(new_data[quoted_zip_code]) == expected_entries:
+                new_data[quoted_zip_code][-1] = str(int(new_data[quoted_zip_code][-1]) + case_count)
+            else:
+                new_data[quoted_zip_code].append(str(case_count))
         else:  # New zip code
             new_data[quoted_zip_code] = ['NA'] * (num_dates)
             new_data[quoted_zip_code].append(str(case_count))
-
-    expected_entries = num_dates + 1
 
     # Handle missing zip codes
     for zip_code in new_data:

@@ -28,8 +28,11 @@ case_counts = [] # List of case counts
 
 for line in response.strip().split('\n')[1:]:
 	zip_code, case_count, _, _ = line.strip().split(',')
-	case_counts.append(str(int(case_count)))
-	zip_codes.append(zip_code)
+	try:
+		case_counts.append(str(int(case_count)))
+		zip_codes.append(zip_code)
+	except:
+		pass
 
 # ===========================================
 # Store previous data in dictionary

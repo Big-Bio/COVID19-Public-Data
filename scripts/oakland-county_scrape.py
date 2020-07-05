@@ -8,17 +8,20 @@ from selenium import webdriver
 # Grab update time information
 # ===========================================
 
-oakland_base_url = "https://oakgov.maps.arcgis.com/apps/opsdashboard/index.html#/462154e746b04af884c548111eccee73"
+if len(sys.argv) > 1:
+	date = sys.argv[1]
+else:
+	oakland_base_url = "https://oakgov.maps.arcgis.com/apps/opsdashboard/index.html#/462154e746b04af884c548111eccee73"
 
-driver = webdriver.PhantomJS()
-driver.get(oakland_base_url)
-time.sleep(5) # Wait for PhantomJS to do its thing
-update_element = driver.find_element_by_xpath("//*[contains(text(), 'Updated')]")
-update_string = update_element.text
+	driver = webdriver.PhantomJS()
+	driver.get(oakland_base_url)
+	time.sleep(10) # Wait for PhantomJS to do its thing
+	update_element = driver.find_element_by_xpath("//*[contains(text(), 'Updated')]")
+	update_string = update_element.text
 
-# Parse: assume form like 'Updated 4/8/2020, 2:15 PM"
-date = update_string.split(' ')[1].strip(',')
-time = update_string.split(' ')[2:3]
+	# Parse: assume form like 'Updated 4/8/2020, 2:15 PM"
+	date = update_string.split(' ')[1].strip(',')
+	time = update_string.split(' ')[2:3]
 
 # ===========================================
 # Grab current zip code-case counts data
